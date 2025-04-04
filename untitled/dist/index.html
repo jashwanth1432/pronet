@@ -1,0 +1,3359 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Untitled</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>ProNet – Connect. Collaborate. Grow.</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@3.4.1/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-50 font-sans">
+
+  <!-- Navbar -->
+  <header class="bg-white shadow-md sticky top-0 z-50">
+    <div class="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
+      <h1 class="text-2xl font-bold text-blue-700">ProNet</h1>
+      <nav class="space-x-6 hidden md:flex">
+        <a href="index.html" class="text-gray-700 hover:text-blue-700">Home</a>
+        <a href="feed.html" class="text-gray-700 hover:text-blue-700">Feed</a>
+        <a href="matches.html" class="text-gray-700 hover:text-blue-700">Matches</a>
+        <a href="events.html" class="text-gray-700 hover:text-blue-700">Events</a>
+        <a href="pricing.html" class="text-gray-700 hover:text-blue-700">Pricing</a>
+      </nav>
+      <div>
+        <a href="signup.html" class="px-4 py-2 bg-blue-600 text-white rounded-full text-sm font-semibold hover:bg-blue-700 transition">Sign Up</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section with Login -->
+  <section class="bg-blue-100 py-20">
+    <div class="max-w-5xl mx-auto px-4 grid md:grid-cols-2 gap-10 items-center">
+      
+      <!-- Left: Intro -->
+      <div>
+        <h2 class="text-4xl font-bold text-blue-900 mb-4">Empowering Business Connections</h2>
+        <p class="text-lg text-blue-800 mb-6">Join thousands of entrepreneurs, investors, and experts growing together through ProNet.</p>
+        <a href="signup.html" class="inline-block px-6 py-3 bg-blue-600 text-white text-lg rounded-full font-semibold hover:bg-blue-700 transition">Create Free Account</a>
+      </div>
+
+      <!-- Right: Login Form -->
+      <div class="bg-white p-8 rounded-xl shadow-lg">
+        <h3 class="text-xl font-bold text-blue-800 mb-6">Login to Your Account</h3>
+        <form action="#" method="POST" class="space-y-4">
+          <div>
+            <label for="email" class="block text-sm font-semibold text-gray-700">Email</label>
+            <input type="email" id="email" name="email" required class="w-full px-4 py-2 rounded border border-gray-300 focus:ring-2 focus:ring-blue-500">
+          </div>
+          <div>
+            <label for="password" class="block text-sm font-semibold text-gray-700">Password</label>
+            <input type="password" id="password" name="password" required class="w-full px-4 py-2 rounded border border-gray-300 focus:ring-2 focus:ring-blue-500">
+          </div>
+          <button type="submit" class="w-full bg-blue-600 text-white py-2 rounded font-semibold hover:bg-blue-700 transition">Login</button>
+        </form>
+        <p class="text-sm mt-4 text-gray-600">Don't have an account? <a href="signup.html" class="text-blue-600 font-medium hover:underline">Sign up here</a></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-800 text-white py-6 mt-10">
+    <div class="max-w-6xl mx-auto px-4 flex flex-col md:flex-row justify-between">
+      <p>&copy; 2025 ProNet. All rights reserved.</p>
+      <div class="space-x-4 mt-2 md:mt-0">
+        <a href="#" class="hover:underline">Privacy</a>
+        <a href="#" class="hover:underline">Terms</a>
+        <a href="#" class="hover:underline">Contact</a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>ProNet – Sign Up</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@3.4.1/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-50 font-sans">
+
+  <!-- Navbar -->
+  <header class="bg-white shadow">
+    <div class="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
+      <h1 class="text-2xl font-bold text-blue-700">ProNet</h1>
+      <a href="index.html" class="text-sm text-blue-600 hover:underline">Back to Home</a>
+    </div>
+  </header>
+
+  <!-- Signup Form -->
+  <section class="max-w-4xl mx-auto p-6 bg-white mt-10 rounded-xl shadow-lg">
+    <h2 class="text-3xl font-bold mb-6 text-blue-800">Create Your ProNet Profile</h2>
+    <form action="#" method="POST" class="space-y-6">
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <div>
+          <label class="block text-sm font-medium text-gray-700">Full Name</label>
+          <input type="text" name="name" class="mt-1 block w-full rounded border-gray-300 shadow-sm focus:ring-blue-500 focus:border-blue-500"/>
+        </div>
+
+        <div>
+          <label class="block text-sm font-medium text-gray-700">Email</label>
+          <input type="email" name="email" class="mt-1 block w-full rounded border-gray-300 shadow-sm focus:ring-blue-500 focus:border-blue-500"/>
+        </div>
+
+        <div>
+          <label class="block text-sm font-medium text-gray-700">Password</label>
+          <input type="password" name="password" class="mt-1 block w-full rounded border-gray-300 shadow-sm focus:ring-blue-500 focus:border-blue-500"/>
+        </div>
+
+        <div>
+          <label class="block text-sm font-medium text-gray-700">Industry</label>
+          <input type="text" name="industry" placeholder="e.g., FinTech, HealthTech" class="mt-1 block w-full rounded border-gray-300 shadow-sm focus:ring-blue-500 focus:border-blue-500"/>
+        </div>
+
+        <div>
+          <label class="block text-sm font-medium text-gray-700">Location</label>
+          <input type="text" name="location" class="mt-1 block w-full rounded border-gray-300 shadow-sm focus:ring-blue-500 focus:border-blue-500"/>
+        </div>
+
+        <div>
+          <label class="block text-sm font-medium text-gray-700">Tags (Interests)</label>
+          <input type="text" name="tags" placeholder="e.g., Investor, Marketing Expert" class="mt-1 block w-full rounded border-gray-300 shadow-sm focus:ring-blue-500 focus:border-blue-500"/>
+        </div>
+
+        <div>
+          <label class="block text-sm font-medium text-gray-700">Website</label>
+          <input type="url" name="website" class="mt-1 block w-full rounded border-gray-300 shadow-sm focus:ring-blue-500 focus:border-blue-500"/>
+        </div>
+
+        <div>
+          <label class="block text-sm font-medium text-gray-700">LinkedIn</label>
+          <input type="url" name="linkedin" class="mt-1 block w-full rounded border-gray-300 shadow-sm focus:ring-blue-500 focus:border-blue-500"/>
+        </div>
+      </div>
+
+      <div>
+        <label class="block text-sm font-medium text-gray-700">Upload Portfolio (PDF or Images)</label>
+        <input type="file" name="portfolio" multiple class="mt-1 block w-full rounded border-gray-300 shadow-sm focus:ring-blue-500 focus:border-blue-500"/>
+      </div>
+
+      <div class="flex items-center">
+        <input id="agree" name="agree" type="checkbox" class="h-4 w-4 text-blue-600 focus:ring-blue-500 border-gray-300 rounded">
+        <label for="agree" class="ml-2 block text-sm text-gray-700">
+          I agree to the <a href="#" class="text-blue-600 hover:underline">Terms of Service</a>.
+        </label>
+      </div>
+
+      <div>
+        <button type="submit" class="w-full bg-blue-600 text-white py-3 rounded font-semibold hover:bg-blue-700 transition">Sign Up</button>
+      </div>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-100 text-center text-sm text-gray-500 py-4 mt-10">
+    &copy; 2025 ProNet. All rights reserved.
+  </footer>
+
+</body>
+</html>
+<body class="bg-gray-50 font-sans">
+<body class="animated-bg font-sans text-gray-800">
+<section class="max-w-4xl mx-auto mt-10 glass-card">
+  <!-- your form or card here -->
+</section>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ProNet - Members</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="animated-bg font-sans text-gray-800">
+
+  <header class="text-center py-10">
+    <h1 class="text-4xl font-bold text-white">👥 ProNet Members</h1>
+    <p class="text-lg text-white/70 mt-2">Explore professional profiles and connect</p>
+  </header>
+
+  <main class="max-w-6xl mx-auto px-4 py-8 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6" id="membersContainer">
+    <!-- JS will inject profiles here -->
+  </main>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      const membersContainer = document.getElementById("membersContainer");
+      const users = JSON.parse(localStorage.getItem("pronet_users")) || [];
+
+      if (users.length === 0) {
+        membersContainer.innerHTML = `<p class="text-white text-lg col-span-full text-center">No users found. Sign up first!</p>`;
+        return;
+      }
+
+      users.forEach(user => {
+        const card = document.createElement("div");
+        card.className = "card-profile glass-card text-center";
+
+        card.innerHTML = `
+          <div class="flex justify-center mb-4">
+            <img src="https://api.dicebear.com/7.x/initials/svg?seed=${user.name}" class="w-20 h-20 rounded-full shadow" alt="${user.name}" />
+          </div>
+          <h2 class="text-lg font-semibold">${user.name}</h2>
+          <p class="text-sm text-gray-600">${user.industry}, ${user.location}</p>
+          <div class="mt-2 flex flex-wrap justify-center gap-2">
+            ${user.tags.map(tag => `<span class="tag">${tag}</span>`).join("")}
+          </div>
+          <div class="mt-4 space-x-2">
+            ${user.website ? `<a href="${user.website}" target="_blank" class="text-blue-500 text-sm hover:underline">🌐 Website</a>` : ""}
+            ${user.linkedin ? `<a href="${user.linkedin}" target="_blank" class="text-blue-600 text-sm hover:underline">🔗 LinkedIn</a>` : ""}
+          </div>
+        `;
+        membersContainer.appendChild(card);
+      });
+    });
+  </script>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ProNet Dashboard</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="animated-bg font-sans text-gray-800">
+
+  <!-- Sidebar -->
+  <div class="flex h-screen">
+    <aside class="w-64 bg-white shadow-lg p-6">
+      <h2 class="text-2xl font-bold mb-6 text-blue-700">ProNet</h2>
+      <nav class="flex flex-col gap-4 text-gray-700">
+        <a href="dashboard.html" class="hover:text-blue-500">🏠 Dashboard</a>
+        <a href="profile.html" class="hover:text-blue-500">👤 My Profile</a>
+        <a href="members.html" class="hover:text-blue-500">👥 Members</a>
+        <a href="messages.html" class="hover:text-blue-500">💬 Messages</a>
+        <a href="events.html" class="hover:text-blue-500">📅 Events</a>
+        <a href="#" class="hover:text-red-500 mt-6">🚪 Logout</a>
+      </nav>
+    </aside>
+
+    <!-- Main Content -->
+    <main class="flex-1 p-10 overflow-y-auto glass-card">
+
+      <!-- Welcome -->
+      <div class="mb-10">
+        <h1 class="text-3xl font-bold text-white">Welcome back, <span class="text-blue-200">User!</span></h1>
+        <p class="text-gray-100">Here's your business dashboard overview.</p>
+      </div>
+
+      <!-- Stats -->
+      <div class="grid grid-cols-1 sm:grid-cols-3 gap-6 mb-10">
+        <div class="bg-white p-6 rounded-lg shadow text-center">
+          <h2 class="text-xl font-semibold text-blue-700">12</h2>
+          <p class="text-gray-600">My Posts</p>
+        </div>
+        <div class="bg-white p-6 rounded-lg shadow text-center">
+          <h2 class="text-xl font-semibold text-blue-700">7</h2>
+          <p class="text-gray-600">New Messages</p>
+        </div>
+        <div class="bg-white p-6 rounded-lg shadow text-center">
+          <h2 class="text-xl font-semibold text-blue-700">3</h2>
+          <p class="text-gray-600">Upcoming Events</p>
+        </div>
+      </div>
+
+      <!-- Activity Feed -->
+      <div class="mb-10">
+        <h2 class="text-2xl font-semibold mb-4 text-white">📢 Recent Activity</h2>
+        <div class="space-y-4">
+          <div class="bg-white p-4 rounded shadow">
+            <p><strong>Sarah M.</strong> posted a collaboration request in Marketing.</p>
+            <span class="text-sm text-gray-400">2 hours ago</span>
+          </div>
+          <div class="bg-white p-4 rounded shadow">
+            <p><strong>Ravi K.</strong> shared a startup funding opportunity.</p>
+            <span class="text-sm text-gray-400">4 hours ago</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Events Panel -->
+      <div>
+        <h2 class="text-2xl font-semibold mb-4 text-white">📅 Upcoming Events</h2>
+        <ul class="space-y-3">
+          <li class="bg-white p-3 rounded shadow">
+            <strong>Startup Pitch Night</strong> - April 10, 2025
+          </li>
+          <li class="bg-white p-3 rounded shadow">
+            <strong>Marketing Masterclass</strong> - April 15, 2025
+          </li>
+        </ul>
+      </div>
+    </main>
+  </div>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>ProNet - Messages</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="animated-bg font-sans text-gray-800">
+
+  <div class="flex h-screen">
+
+    <!-- Sidebar -->
+    <aside class="w-64 bg-white shadow-lg p-6">
+      <h2 class="text-2xl font-bold mb-6 text-blue-700">ProNet</h2>
+      <nav class="flex flex-col gap-4 text-gray-700">
+        <a href="dashboard.html" class="hover:text-blue-500">🏠 Dashboard</a>
+        <a href="profile.html" class="hover:text-blue-500">👤 My Profile</a>
+        <a href="members.html" class="hover:text-blue-500">👥 Members</a>
+        <a href="messages.html" class="text-blue-600 font-semibold">💬 Messages</a>
+        <a href="events.html" class="hover:text-blue-500">📅 Events</a>
+        <a href="#" class="hover:text-red-500 mt-6">🚪 Logout</a>
+      </nav>
+    </aside>
+
+    <!-- Chat Panel -->
+    <main class="flex-1 flex flex-col md:flex-row overflow-hidden">
+
+      <!-- Contacts List -->
+      <div class="md:w-1/3 bg-white border-r overflow-y-auto p-4">
+        <h3 class="text-lg font-semibold mb-4 text-blue-700">Conversations</h3>
+        <ul class="space-y-3">
+          <li class="cursor-pointer p-3 rounded hover:bg-blue-50 shadow-sm bg-blue-100">
+            <strong>Ravi K.</strong><br/><span class="text-sm text-gray-500">Hey, are you joining the...</span>
+          </li>
+          <li class="cursor-pointer p-3 rounded hover:bg-blue-50 shadow-sm">
+            <strong>Sarah M.</strong><br/><span class="text-sm text-gray-500">Need help with marketing...</span>
+          </li>
+          <li class="cursor-pointer p-3 rounded hover:bg-blue-50 shadow-sm">
+            <strong>Alex B.</strong><br/><span class="text-sm text-gray-500">Let’s connect this week.</span>
+          </li>
+        </ul>
+      </div>
+
+      <!-- Chat Window -->
+      <div class="md:w-2/3 p-6 flex flex-col bg-gray-50">
+        <div class="flex-1 overflow-y-auto mb-4 space-y-4">
+          <div class="bg-white p-3 rounded shadow w-3/4">
+            <p><strong>Ravi K.</strong>: Are you joining the funding event tonight?</p>
+          </div>
+          <div class="bg-blue-100 p-3 rounded shadow w-3/4 ml-auto">
+            <p><strong>You</strong>: Yes, I just registered!</p>
+          </div>
+        </div>
+
+        <!-- Message Input -->
+        <form id="chatForm" class="flex gap-2">
+          <input type="text" placeholder="Type your message..." class="flex-1 border border-gray-300 rounded px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-300" />
+          <button type="submit" class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700">Send</button>
+        </form>
+      </div>
+
+    </main>
+  </div>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>ProNet - Task Board</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="animated-bg font-sans text-gray-800">
+
+  <div class="flex h-screen">
+
+    <!-- Sidebar -->
+    <aside class="w-64 bg-white shadow-lg p-6">
+      <h2 class="text-2xl font-bold mb-6 text-blue-700">ProNet</h2>
+      <nav class="flex flex-col gap-4 text-gray-700">
+        <a href="dashboard.html" class="hover:text-blue-500">🏠 Dashboard</a>
+        <a href="profile.html" class="hover:text-blue-500">👤 My Profile</a>
+        <a href="members.html" class="hover:text-blue-500">👥 Members</a>
+        <a href="messages.html" class="hover:text-blue-500">💬 Messages</a>
+        <a href="tasks.html" class="text-blue-600 font-semibold">✅ Tasks</a>
+        <a href="events.html" class="hover:text-blue-500">📅 Events</a>
+        <a href="#" class="hover:text-red-500 mt-6">🚪 Logout</a>
+      </nav>
+    </aside>
+
+    <!-- Task Board -->
+    <main class="flex-1 overflow-auto bg-gray-50 p-6">
+      <h1 class="text-2xl font-semibold text-blue-700 mb-6">Task Board</h1>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+
+        <!-- To Do -->
+        <div class="bg-white rounded-lg shadow p-4">
+          <h2 class="text-lg font-bold text-gray-700 mb-4">📝 To Do</h2>
+          <ul class="space-y-3" id="todoList">
+            <li class="p-3 bg-gray-100 rounded shadow-sm">Design Landing Page</li>
+            <li class="p-3 bg-gray-100 rounded shadow-sm">Write Event Copy</li>
+          </ul>
+          <input type="text" placeholder="Add task..." class="w-full mt-4 px-3 py-2 border rounded" id="todoInput">
+        </div>
+
+        <!-- In Progress -->
+        <div class="bg-white rounded-lg shadow p-4">
+          <h2 class="text-lg font-bold text-gray-700 mb-4">🚧 In Progress</h2>
+          <ul class="space-y-3" id="inProgressList">
+            <li class="p-3 bg-yellow-100 rounded shadow-sm">Setup Stripe Integration</li>
+          </ul>
+        </div>
+
+        <!-- Completed -->
+        <div class="bg-white rounded-lg shadow p-4">
+          <h2 class="text-lg font-bold text-gray-700 mb-4">✅ Completed</h2>
+          <ul class="space-y-3" id="completedList">
+            <li class="p-3 bg-green-100 rounded shadow-sm">Launch MVP</li>
+          </ul>
+        </div>
+
+      </div>
+    </main>
+  </div>
+
+  <script>
+    // Add task to "To Do"
+    const todoInput = document.getElementById("todoInput");
+    const todoList = document.getElementById("todoList");
+
+    todoInput.addEventListener("keypress", function (e) {
+      if (e.key === "Enter" && todoInput.value.trim() !== "") {
+        const li = document.createElement("li");
+        li.className = "p-3 bg-gray-100 rounded shadow-sm";
+        li.textContent = todoInput.value;
+        todoList.appendChild(li);
+        todoInput.value = "";
+      }
+    });
+  </script>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>ProNet - Document Sharing</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="animated-bg font-sans text-gray-800">
+
+  <div class="flex h-screen">
+
+    <!-- Sidebar -->
+    <aside class="w-64 bg-white shadow-lg p-6">
+      <h2 class="text-2xl font-bold mb-6 text-blue-700">ProNet</h2>
+      <nav class="flex flex-col gap-4 text-gray-700">
+        <a href="dashboard.html" class="hover:text-blue-500">🏠 Dashboard</a>
+        <a href="profile.html" class="hover:text-blue-500">👤 My Profile</a>
+        <a href="members.html" class="hover:text-blue-500">👥 Members</a>
+        <a href="messages.html" class="hover:text-blue-500">💬 Messages</a>
+        <a href="tasks.html" class="hover:text-blue-500">✅ Tasks</a>
+        <a href="documents.html" class="text-blue-600 font-semibold">📁 Documents</a>
+        <a href="events.html" class="hover:text-blue-500">📅 Events</a>
+        <a href="#" class="hover:text-red-500 mt-6">🚪 Logout</a>
+      </nav>
+    </aside>
+
+    <!-- Document Area -->
+    <main class="flex-1 overflow-auto bg-gray-50 p-6">
+      <h1 class="text-2xl font-semibold text-blue-700 mb-6">Shared Documents</h1>
+
+      <!-- Upload Form -->
+      <form id="uploadForm" class="bg-white rounded-lg p-6 shadow mb-6">
+        <label class="block mb-2 text-gray-600 font-semibold">Upload Document</label>
+        <input type="file" id="docInput" class="block w-full border p-2 rounded mb-4" />
+        <button type="submit" class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700">Upload</button>
+      </form>
+
+      <!-- Document List -->
+      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-4" id="docList">
+        <!-- Sample -->
+        <div class="bg-white p-4 rounded shadow">
+          <h3 class="font-semibold text-gray-800">Business_Plan_2025.pdf</h3>
+          <p class="text-sm text-gray-500 mt-1">Uploaded by: Sarah J | 2 days ago</p>
+          <a href="#" class="text-blue-600 mt-2 inline-block">🔗 View</a>
+        </div>
+      </div>
+
+    </main>
+  </div>
+
+  <script>
+    const docInput = document.getElementById("docInput");
+    const uploadForm = document.getElementById("uploadForm");
+    const docList = document.getElementById("docList");
+
+    uploadForm.addEventListener("submit", function (e) {
+      e.preventDefault();
+      const file = docInput.files[0];
+      if (file) {
+        const card = document.createElement("div");
+        card.className = "bg-white p-4 rounded shadow";
+        card.innerHTML = `
+          <h3 class="font-semibold text-gray-800">${file.name}</h3>
+          <p class="text-sm text-gray-500 mt-1">Uploaded by: You | Just now</p>
+          <a href="#" class="text-blue-600 mt-2 inline-block">🔗 View</a>
+        `;
+        docList.prepend(card);
+        docInput.value = "";
+      }
+    });
+  </script>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>ProNet - Events</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="animated-bg font-sans text-gray-800">
+
+  <div class="flex h-screen">
+
+    <!-- Sidebar -->
+    <aside class="w-64 bg-white shadow-lg p-6">
+      <h2 class="text-2xl font-bold mb-6 text-blue-700">ProNet</h2>
+      <nav class="flex flex-col gap-4 text-gray-700">
+        <a href="dashboard.html" class="hover:text-blue-500">🏠 Dashboard</a>
+        <a href="profile.html" class="hover:text-blue-500">👤 My Profile</a>
+        <a href="members.html" class="hover:text-blue-500">👥 Members</a>
+        <a href="messages.html" class="hover:text-blue-500">💬 Messages</a>
+        <a href="tasks.html" class="hover:text-blue-500">✅ Tasks</a>
+        <a href="documents.html" class="hover:text-blue-500">📁 Documents</a>
+        <a href="events.html" class="text-blue-600 font-semibold">📅 Events</a>
+        <a href="#" class="hover:text-red-500 mt-6">🚪 Logout</a>
+      </nav>
+    </aside>
+
+    <!-- Main Content -->
+    <main class="flex-1 overflow-auto bg-gray-50 p-6">
+      <h1 class="text-2xl font-semibold text-blue-700 mb-6">Upcoming Events</h1>
+
+      <div id="eventsContainer" class="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <!-- Event cards will be injected by JavaScript -->
+      </div>
+    </main>
+  </div>
+
+  <script>
+    const events = [
+      {
+        title: "Startup Pitch Night",
+        date: "April 15, 2025",
+        time: "7:00 PM",
+        desc: "Pitch your startup to a panel of investors.",
+        registered: false
+      },
+      {
+        title: "Marketing Masterclass",
+        date: "April 20, 2025",
+        time: "5:00 PM",
+        desc: "Learn growth marketing from top experts.",
+        registered: false
+      },
+      {
+        title: "Investor Connect Roundtable",
+        date: "April 28, 2025",
+        time: "6:00 PM",
+        desc: "Meet VCs and angel investors looking for new ideas.",
+        registered: false
+      }
+    ];
+
+    const eventsContainer = document.getElementById("eventsContainer");
+
+    events.forEach((event, index) => {
+      const card = document.createElement("div");
+      card.className = "bg-white rounded-lg shadow p-5";
+
+      card.innerHTML = `
+        <h3 class="text-lg font-bold text-gray-800 mb-1">${event.title}</h3>
+        <p class="text-sm text-gray-600">${event.date} @ ${event.time}</p>
+        <p class="text-sm text-gray-500 mt-2">${event.desc}</p>
+        <button onclick="registerEvent(${index})" id="btn-${index}" class="mt-4 px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700">
+          Register
+        </button>
+      `;
+
+      eventsContainer.appendChild(card);
+    });
+
+    function registerEvent(index) {
+      const btn = document.getElementById(`btn-${index}`);
+      btn.textContent = "Registered ✅";
+      btn.disabled = true;
+      btn.classList.remove("bg-blue-600");
+      btn.classList.add("bg-green-600");
+    }
+  </script>
+
+</body>
+</html>
+<!-- Reminders Section -->
+<h2 class="text-xl font-semibold text-blue-600 mt-10 mb-4">Your Reminders</h2>
+<ul id="reminderList" class="space-y-2"></ul>
+
+<!-- Simple Calendar Overview -->
+<h2 class="text-xl font-semibold text-blue-600 mt-10 mb-4">📅 Calendar Overview</h2>
+<div class="grid grid-cols-2 md:grid-cols-4 gap-4 text-sm" id="calendarBox">
+  <!-- Calendar dates and events populated via JS -->
+</div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>ProNet - Settings</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="font-sans text-gray-800 bg-gray-100 dark:bg-gray-900 dark:text-white transition-all">
+
+  <div class="flex h-screen">
+
+    <!-- Sidebar -->
+    <aside class="w-64 bg-white dark:bg-gray-800 shadow-lg p-6">
+      <h2 class="text-2xl font-bold mb-6 text-blue-700 dark:text-white">ProNet</h2>
+      <nav class="flex flex-col gap-4 text-gray-700 dark:text-gray-300">
+        <a href="dashboard.html" class="hover:text-blue-500">🏠 Dashboard</a>
+        <a href="analytics.html" class="hover:text-blue-500">📊 Analytics</a>
+        <a href="members.html" class="hover:text-blue-500">👥 Members</a>
+        <a href="settings.html" class="text-blue-600 font-semibold">⚙️ Settings</a>
+        <a href="#" class="hover:text-red-500 mt-6">🚪 Logout</a>
+      </nav>
+    </aside>
+
+    <!-- Settings Content -->
+    <main class="flex-1 overflow-auto p-6">
+      <h1 class="text-2xl font-semibold text-blue-700 dark:text-white mb-6">⚙️ Settings</h1>
+
+      <div class="bg-white dark:bg-gray-800 p-6 rounded-lg shadow">
+        <h2 class="text-lg font-semibold mb-4">Edit Profile</h2>
+        <label class="block text-sm mb-2">Full Name</label>
+        <input type="text" id="fullName" class="w-full p-2 border rounded dark:bg-gray-700 dark:border-gray-600" placeholder="Enter your name">
+        
+        <label class="block text-sm mt-4 mb-2">Bio</label>
+        <textarea id="bio" class="w-full p-2 border rounded dark:bg-gray-700 dark:border-gray-600" placeholder="A short description about yourself"></textarea>
+        
+        <label class="block text-sm mt-4 mb-2">LinkedIn Profile</label>
+        <input type="url" id="linkedin" class="w-full p-2 border rounded dark:bg-gray-700 dark:border-gray-600" placeholder="Enter LinkedIn URL">
+
+        <button onclick="saveProfile()" class="mt-4 px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700">Save Changes</button>
+      </div>
+
+      <!-- Privacy Settings -->
+      <div class="bg-white dark:bg-gray-800 p-6 rounded-lg shadow mt-6">
+        <h2 class="text-lg font-semibold mb-4">Privacy Settings</h2>
+        
+        <label class="flex items-center mb-2">
+          <input type="checkbox" id="profileVisibility" class="mr-2">
+          Make my profile public
+        </label>
+        
+        <label class="flex items-center">
+          <input type="checkbox" id="emailNotifications" class="mr-2">
+          Enable Email Notifications
+        </label>
+        
+        <button onclick="savePrivacy()" class="mt-4 px-4 py-2 bg-green-600 text-white rounded hover:bg-green-700">Save Preferences</button>
+      </div>
+
+      <!-- Dark Mode Toggle -->
+      <div class="bg-white dark:bg-gray-800 p-6 rounded-lg shadow mt-6 flex items-center justify-between">
+        <h2 class="text-lg font-semibold">🌙 Dark Mode</h2>
+        <button id="darkModeToggle" class="px-4 py-2 bg-gray-600 text-white rounded">Enable</button>
+      </div>
+
+    </main>
+
+  </div>
+
+  <script>
+    // Load saved settings
+    document.addEventListener("DOMContentLoaded", () => {
+      document.getElementById("fullName").value = localStorage.getItem("fullName") || "";
+      document.getElementById("bio").value = localStorage.getItem("bio") || "";
+      document.getElementById("linkedin").value = localStorage.getItem("linkedin") || "";
+      document.getElementById("profileVisibility").checked = localStorage.getItem("profileVisibility") === "true";
+      document.getElementById("emailNotifications").checked = localStorage.getItem("emailNotifications") === "true";
+
+      if (localStorage.getItem("darkMode") === "enabled") {
+        document.body.classList.add("dark");
+        document.getElementById("darkModeToggle").textContent = "Disable";
+      }
+    });
+
+    // Save Profile Details
+    function saveProfile() {
+      localStorage.setItem("fullName", document.getElementById("fullName").value);
+      localStorage.setItem("bio", document.getElementById("bio").value);
+      localStorage.setItem("linkedin", document.getElementById("linkedin").value);
+      alert("Profile updated!");
+    }
+
+    // Save Privacy Preferences
+    function savePrivacy() {
+      localStorage.setItem("profileVisibility", document.getElementById("profileVisibility").checked);
+      localStorage.setItem("emailNotifications", document.getElementById("emailNotifications").checked);
+      alert("Privacy settings saved!");
+    }
+
+    // Dark Mode Toggle
+    document.getElementById("darkModeToggle").addEventListener("click", () => {
+      document.body.classList.toggle("dark");
+      let isDark = document.body.classList.contains("dark");
+      localStorage.setItem("darkMode", isDark ? "enabled" : "disabled");
+      document.getElementById("darkModeToggle").textContent = isDark ? "Disable" : "Enable";
+    });
+  </script>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ProNet - Members</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="font-sans text-gray-800 bg-gray-100 dark:bg-gray-900 dark:text-white transition-all">
+
+  <div class="flex h-screen">
+
+    <!-- Sidebar -->
+    <aside class="w-64 bg-white dark:bg-gray-800 shadow-lg p-6">
+      <h2 class="text-2xl font-bold mb-6 text-blue-700 dark:text-white">ProNet</h2>
+      <nav class="flex flex-col gap-4 text-gray-700 dark:text-gray-300">
+        <a href="dashboard.html" class="hover:text-blue-500">🏠 Dashboard</a>
+        <a href="analytics.html" class="hover:text-blue-500">📊 Analytics</a>
+        <a href="members.html" class="text-blue-600 font-semibold">👥 Members</a>
+        <a href="settings.html" class="hover:text-blue-500">⚙️ Settings</a>
+        <a href="#" class="hover:text-red-500 mt-6">🚪 Logout</a>
+      </nav>
+    </aside>
+
+    <!-- Main Content -->
+    <main class="flex-1 overflow-auto p-6">
+      <h1 class="text-2xl font-semibold text-blue-700 dark:text-white mb-6">👥 Find Members</h1>
+
+      <!-- Search & Filters -->
+      <div class="bg-white dark:bg-gray-800 p-6 rounded-lg shadow">
+        <input type="text" id="searchInput" class="w-full p-2 border rounded dark:bg-gray-700 dark:border-gray-600" placeholder="Search by name, industry, or expertise">
+        
+        <div class="grid grid-cols-2 gap-4 mt-4">
+          <select id="industryFilter" class="p-2 border rounded dark:bg-gray-700 dark:border-gray-600">
+            <option value="">Select Industry</option>
+            <option value="Tech">Tech</option>
+            <option value="Finance">Finance</option>
+            <option value="Healthcare">Healthcare</option>
+          </select>
+
+          <select id="locationFilter" class="p-2 border rounded dark:bg-gray-700 dark:border-gray-600">
+            <option value="">Select Location</option>
+            <option value="New York">New York</option>
+            <option value="London">London</option>
+            <option value="Mumbai">Mumbai</option>
+          </select>
+        </div>
+
+        <button onclick="filterMembers()" class="mt-4 px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700">🔍 Search</button>
+      </div>
+
+      <!-- Member List -->
+      <div id="memberList" class="mt-6 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+        <!-- Members will be dynamically added here -->
+      </div>
+
+    </main>
+
+  </div>
+
+  <script>
+    // Sample dataset (can be replaced with an API call)
+    const members = [
+      { name: "Alice Johnson", industry: "Tech", location: "New York", expertise: "AI Specialist" },
+      { name: "Bob Smith", industry: "Finance", location: "London", expertise: "Investor" },
+      { name: "Charlie Patel", industry: "Healthcare", location: "Mumbai", expertise: "Medical Startup" },
+      { name: "David Wong", industry: "Tech", location: "London", expertise: "Blockchain Developer" },
+    ];
+
+    function displayMembers(memberArray) {
+      const memberList = document.getElementById("memberList");
+      memberList.innerHTML = "";
+
+      memberArray.forEach(member => {
+        const memberCard = `
+          <div class="bg-white dark:bg-gray-800 p-4 rounded-lg shadow">
+            <h3 class="font-semibold">${member.name}</h3>
+            <p class="text-sm text-gray-600 dark:text-gray-300">${member.industry} | ${member.location}</p>
+            <p class="text-sm text-blue-500">${member.expertise}</p>
+            <button class="mt-2 px-3 py-1 bg-green-600 text-white rounded text-sm">Connect</button>
+          </div>
+        `;
+        memberList.innerHTML += memberCard;
+      });
+    }
+
+    function filterMembers() {
+      const searchQuery = document.getElementById("searchInput").value.toLowerCase();
+      const industryFilter = document.getElementById("industryFilter").value;
+      const locationFilter = document.getElementById("locationFilter").value;
+
+      let filteredMembers = members.filter(member => {
+        return (
+          (searchQuery === "" || member.name.toLowerCase().includes(searchQuery) || member.expertise.toLowerCase().includes(searchQuery)) &&
+          (industryFilter === "" || member.industry === industryFilter) &&
+          (locationFilter === "" || member.location === locationFilter)
+        );
+      });
+
+      displayMembers(filteredMembers);
+    }
+
+    // Load initial members
+    document.addEventListener("DOMContentLoaded", () => displayMembers(members));
+  </script>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ProNet - Admin Dashboard</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="font-sans text-gray-800 bg-gray-100 dark:bg-gray-900 dark:text-white transition-all">
+
+  <div class="flex h-screen">
+
+    <!-- Sidebar -->
+    <aside class="w-64 bg-white dark:bg-gray-800 shadow-lg p-6">
+      <h2 class="text-2xl font-bold mb-6 text-blue-700 dark:text-white">ProNet Admin</h2>
+      <nav class="flex flex-col gap-4 text-gray-700 dark:text-gray-300">
+        <a href="admin_dashboard.html" class="text-blue-600 font-semibold">📊 Dashboard</a>
+        <a href="admin_users.html" class="hover:text-blue-500">👥 Manage Users</a>
+        <a href="admin_revenue.html" class="hover:text-blue-500">💰 Revenue</a>
+        <a href="admin_events.html" class="hover:text-blue-500">📅 Events</a>
+        <a href="settings.html" class="hover:text-blue-500">⚙️ Settings</a>
+        <a href="#" class="hover:text-red-500 mt-6">🚪 Logout</a>
+      </nav>
+    </aside>
+
+    <!-- Main Content -->
+    <main class="flex-1 overflow-auto p-6">
+      <h1 class="text-2xl font-semibold text-blue-700 dark:text-white mb-6">📊 Admin Dashboard</h1>
+
+      <!-- Analytics Section -->
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
+        <div class="bg-white dark:bg-gray-800 p-6 rounded-lg shadow">
+          <h3 class="text-lg font-semibold text-gray-700 dark:text-gray-300">Total Users</h3>
+          <p id="totalUsers" class="text-2xl font-bold text-blue-600">Loading...</p>
+        </div>
+        <div class="bg-white dark:bg-gray-800 p-6 rounded-lg shadow">
+          <h3 class="text-lg font-semibold text-gray-700 dark:text-gray-300">Active Users</h3>
+          <p id="activeUsers" class="text-2xl font-bold text-green-600">Loading...</p>
+        </div>
+        <div class="bg-white dark:bg-gray-800 p-6 rounded-lg shadow">
+          <h3 class="text-lg font-semibold text-gray-700 dark:text-gray-300">Revenue (USD)</h3>
+          <p id="totalRevenue" class="text-2xl font-bold text-yellow-600">$0</p>
+        </div>
+        <div class="bg-white dark:bg-gray-800 p-6 rounded-lg shadow">
+          <h3 class="text-lg font-semibold text-gray-700 dark:text-gray-300">Pending Approvals</h3>
+          <p id="pendingApprovals" class="text-2xl font-bold text-red-600">0</p>
+        </div>
+      </div>
+
+      <!-- Recent Activity -->
+      <div class="mt-6 bg-white dark:bg-gray-800 p-6 rounded-lg shadow">
+        <h2 class="text-lg font-semibold text-gray-700 dark:text-white">Recent Activities</h2>
+        <ul id="recentActivity" class="mt-4 text-gray-600 dark:text-gray-300">
+          <!-- Activities will be added dynamically -->
+        </ul>
+      </div>
+
+    </main>
+
+  </div>
+
+  <script>
+    // Mock Data
+    const analyticsData = {
+      totalUsers: 2000,
+      activeUsers: 1845,
+      totalRevenue: 15000,
+      pendingApprovals: 12,
+      activities: [
+        "Alice Johnson joined the platform.",
+        "Bob Smith upgraded to Premium.",
+        "David Wong posted a new business opportunity.",
+        "Charlie Patel registered for an event.",
+        "Investor Mike approved a funding request."
+      ]
+    };
+
+    // Update Dashboard Stats
+    document.getElementById("totalUsers").innerText = analyticsData.totalUsers;
+    document.getElementById("activeUsers").innerText = analyticsData.activeUsers;
+    document.getElementById("totalRevenue").innerText = `$${analyticsData.totalRevenue}`;
+    document.getElementById("pendingApprovals").innerText = analyticsData.pendingApprovals;
+
+    // Display Recent Activities
+    const recentActivityList = document.getElementById("recentActivity");
+    analyticsData.activities.forEach(activity => {
+      const li = document.createElement("li");
+      li.innerText = activity;
+      recentActivityList.appendChild(li);
+    });
+  </script>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ProNet - Manage Users</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="font-sans text-gray-800 bg-gray-100 dark:bg-gray-900 dark:text-white transition-all">
+
+  <div class="flex h-screen">
+
+    <!-- Sidebar -->
+    <aside class="w-64 bg-white dark:bg-gray-800 shadow-lg p-6">
+      <h2 class="text-2xl font-bold mb-6 text-blue-700 dark:text-white">ProNet Admin</h2>
+      <nav class="flex flex-col gap-4 text-gray-700 dark:text-gray-300">
+        <a href="admin_dashboard.html" class="hover:text-blue-500">📊 Dashboard</a>
+        <a href="admin_users.html" class="text-blue-600 font-semibold">👥 Manage Users</a>
+        <a href="admin_revenue.html" class="hover:text-blue-500">💰 Revenue</a>
+        <a href="admin_events.html" class="hover:text-blue-500">📅 Events</a>
+        <a href="settings.html" class="hover:text-blue-500">⚙️ Settings</a>
+        <a href="#" class="hover:text-red-500 mt-6">🚪 Logout</a>
+      </nav>
+    </aside>
+
+    <!-- Main Content -->
+    <main class="flex-1 overflow-auto p-6">
+      <h1 class="text-2xl font-semibold text-blue-700 dark:text-white mb-6">👥 Manage Users</h1>
+
+      <!-- Search & Filter -->
+      <div class="flex justify-between items-center mb-4">
+        <input type="text" id="searchUser" placeholder="Search users..." class="p-2 border rounded-lg w-1/3">
+        <select id="filterRole" class="p-2 border rounded-lg">
+          <option value="all">All Users</option>
+          <option value="investor">Investors</option>
+          <option value="entrepreneur">Entrepreneurs</option>
+        </select>
+      </div>
+
+      <!-- User Table -->
+      <div class="bg-white dark:bg-gray-800 p-6 rounded-lg shadow">
+        <table class="w-full text-left">
+          <thead>
+            <tr class="text-gray-600 dark:text-gray-300">
+              <th class="p-3">Name</th>
+              <th class="p-3">Role</th>
+              <th class="p-3">Status</th>
+              <th class="p-3">Actions</th>
+            </tr>
+          </thead>
+          <tbody id="userTableBody" class="text-gray-700 dark:text-gray-300">
+            <!-- User Data will be loaded dynamically -->
+          </tbody>
+        </table>
+      </div>
+
+    </main>
+
+  </div>
+
+  <script>
+    // Mock Data - 2000 Users (Sample)
+    const users = [
+      { name: "Alice Johnson", role: "entrepreneur", status: "Active" },
+      { name: "Bob Smith", role: "investor", status: "Pending" },
+      { name: "Charlie Patel", role: "entrepreneur", status: "Banned" },
+      { name: "David Wong", role: "investor", status: "Active" }
+    ];
+
+    // Function to Load Users
+    function loadUsers(filter = "all") {
+      const userTableBody = document.getElementById("userTableBody");
+      userTableBody.innerHTML = ""; // Clear previous content
+
+      users.forEach(user => {
+        if (filter === "all" || user.role === filter) {
+          const row = `<tr>
+            <td class="p-3">${user.name}</td>
+            <td class="p-3 capitalize">${user.role}</td>
+            <td class="p-3 ${user.status === 'Active' ? 'text-green-600' : user.status === 'Pending' ? 'text-yellow-600' : 'text-red-600'}">${user.status}</td>
+            <td class="p-3">
+              <button class="bg-blue-500 text-white px-3 py-1 rounded">View</button>
+              <button class="bg-green-500 text-white px-3 py-1 rounded ml-2">Approve</button>
+              <button class="bg-red-500 text-white px-3 py-1 rounded ml-2">Ban</button>
+            </td>
+          </tr>`;
+          userTableBody.innerHTML += row;
+        }
+      });
+    }
+
+    // Event Listeners for Search & Filter
+    document.getElementById("searchUser").addEventListener("keyup", function () {
+      const searchText = this.value.toLowerCase();
+      const filteredUsers = users.filter(user => user.name.toLowerCase().includes(searchText));
+      loadUsers(filteredUsers);
+    });
+
+    document.getElementById("filterRole").addEventListener("change", function () {
+      loadUsers(this.value);
+    });
+
+    // Initial Load
+    loadUsers();
+  </script>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ProNet - Revenue Dashboard</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body class="font-sans text-gray-800 bg-gray-100 dark:bg-gray-900 dark:text-white transition-all">
+
+  <div class="flex h-screen">
+
+    <!-- Sidebar -->
+    <aside class="w-64 bg-white dark:bg-gray-800 shadow-lg p-6">
+      <h2 class="text-2xl font-bold mb-6 text-blue-700 dark:text-white">ProNet Admin</h2>
+      <nav class="flex flex-col gap-4 text-gray-700 dark:text-gray-300">
+        <a href="admin_dashboard.html" class="hover:text-blue-500">📊 Dashboard</a>
+        <a href="admin_users.html" class="hover:text-blue-500">👥 Manage Users</a>
+        <a href="admin_revenue.html" class="text-blue-600 font-semibold">💰 Revenue</a>
+        <a href="admin_events.html" class="hover:text-blue-500">📅 Events</a>
+        <a href="settings.html" class="hover:text-blue-500">⚙️ Settings</a>
+        <a href="#" class="hover:text-red-500 mt-6">🚪 Logout</a>
+      </nav>
+    </aside>
+
+    <!-- Main Content -->
+    <main class="flex-1 overflow-auto p-6">
+      <h1 class="text-2xl font-semibold text-blue-700 dark:text-white mb-6">💰 Revenue Dashboard</h1>
+
+      <div class="grid grid-cols-3 gap-6">
+        <!-- Revenue Cards -->
+        <div class="bg-white dark:bg-gray-800 p-6 rounded-lg shadow text-center">
+          <h3 class="text-lg text-gray-600 dark:text-gray-300">Total Revenue</h3>
+          <p class="text-2xl font-bold text-green-600">$125,000</p>
+        </div>
+        <div class="bg-white dark:bg-gray-800 p-6 rounded-lg shadow text-center">
+          <h3 class="text-lg text-gray-600 dark:text-gray-300">Subscriptions</h3>
+          <p class="text-2xl font-bold text-blue-600">$80,000</p>
+        </div>
+        <div class="bg-white dark:bg-gray-800 p-6 rounded-lg shadow text-center">
+          <h3 class="text-lg text-gray-600 dark:text-gray-300">Ads & Promotions</h3>
+          <p class="text-2xl font-bold text-yellow-600">$45,000</p>
+        </div>
+      </div>
+
+      <!-- Revenue Chart -->
+      <div class="bg-white dark:bg-gray-800 p-6 rounded-lg shadow mt-6">
+        <canvas id="revenueChart"></canvas>
+      </div>
+
+    </main>
+  </div>
+
+  <script>
+    const ctx = document.getElementById('revenueChart').getContext('2d');
+    new Chart(ctx, {
+      type: 'line',
+      data: {
+        labels: ["Jan", "Feb", "Mar", "Apr", "May", "Jun"],
+        datasets: [{
+          label: "Revenue ($)",
+          data: [15000, 20000, 30000, 50000, 70000, 125000],
+          borderColor: "blue",
+          backgroundColor: "rgba(0, 123, 255, 0.2)",
+          fill: true
+        }]
+      }
+    });
+  </script>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ProNet - Manage Events</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="font-sans text-gray-800 bg-gray-100 dark:bg-gray-900 dark:text-white transition-all">
+
+  <div class="flex h-screen">
+
+    <!-- Sidebar -->
+    <aside class="w-64 bg-white dark:bg-gray-800 shadow-lg p-6">
+      <h2 class="text-2xl font-bold mb-6 text-blue-700 dark:text-white">ProNet Admin</h2>
+      <nav class="flex flex-col gap-4 text-gray-700 dark:text-gray-300">
+        <a href="admin_dashboard.html" class="hover:text-blue-500">📊 Dashboard</a>
+        <a href="admin_users.html" class="hover:text-blue-500">👥 Manage Users</a>
+        <a href="admin_revenue.html" class="hover:text-blue-500">💰 Revenue</a>
+        <a href="admin_events.html" class="text-blue-600 font-semibold">📅 Events</a>
+        <a href="settings.html" class="hover:text-blue-500">⚙️ Settings</a>
+        <a href="#" class="hover:text-red-500 mt-6">🚪 Logout</a>
+      </nav>
+    </aside>
+
+    <!-- Main Content -->
+    <main class="flex-1 overflow-auto p-6">
+      <h1 class="text-2xl font-semibold text-blue-700 dark:text-white mb-6">📅 Event Management</h1>
+
+      <!-- Create Event Button -->
+      <button onclick="openEventModal()" class="bg-blue-500 text-white px-4 py-2 rounded mb-4">+ Create Event</button>
+
+      <!-- Event Table -->
+      <div class="bg-white dark:bg-gray-800 p-6 rounded-lg shadow">
+        <table class="w-full text-left">
+          <thead>
+            <tr class="text-gray-600 dark:text-gray-300">
+              <th class="p-3">Event Name</th>
+              <th class="p-3">Date</th>
+              <th class="p-3">Location</th>
+              <th class="p-3">Actions</th>
+            </tr>
+          </thead>
+          <tbody id="eventTableBody" class="text-gray-700 dark:text-gray-300">
+            <!-- Events will be dynamically added here -->
+          </tbody>
+        </table>
+      </div>
+    </main>
+  </div>
+
+  <!-- Event Modal -->
+  <div id="eventModal" class="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center hidden">
+    <div class="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-lg w-1/3">
+      <h2 class="text-xl font-semibold mb-4">Create New Event</h2>
+      <input type="text" id="eventName" placeholder="Event Name" class="w-full p-2 border rounded mb-3">
+      <input type="date" id="eventDate" class="w-full p-2 border rounded mb-3">
+      <input type="text" id="eventLocation" placeholder="Location" class="w-full p-2 border rounded mb-3">
+      <div class="flex justify-end">
+        <button onclick="closeEventModal()" class="bg-gray-500 text-white px-3 py-1 rounded mr-2">Cancel</button>
+        <button onclick="addEvent()" class="bg-blue-500 text-white px-3 py-1 rounded">Save</button>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    // Sample Events Data
+    const events = [
+      { name: "Startup Meetup 2025", date: "2025-05-15", location: "New York" },
+      { name: "Investor Pitch Day", date: "2025-06-10", location: "San Francisco" }
+    ];
+
+    // Function to Load Events
+    function loadEvents() {
+      const eventTableBody = document.getElementById("eventTableBody");
+      eventTableBody.innerHTML = "";
+      
+      events.forEach(event => {
+        const row = `<tr>
+          <td class="p-3">${event.name}</td>
+          <td class="p-3">${event.date}</td>
+          <td class="p-3">${event.location}</td>
+          <td class="p-3">
+            <button class="bg-green-500 text-white px-3 py-1 rounded">Edit</button>
+            <button class="bg-red-500 text-white px-3 py-1 rounded ml-2" onclick="deleteEvent('${event.name}')">Delete</button>
+          </td>
+        </tr>`;
+        eventTableBody.innerHTML += row;
+      });
+    }
+
+    // Open & Close Modal
+    function openEventModal() {
+      document.getElementById("eventModal").classList.remove("hidden");
+    }
+    function closeEventModal() {
+      document.getElementById("eventModal").classList.add("hidden");
+    }
+
+    // Add New Event
+    function addEvent() {
+      const name = document.getElementById("eventName").value;
+      const date = document.getElementById("eventDate").value;
+      const location = document.getElementById("eventLocation").value;
+
+      if (name && date && location) {
+        events.push({ name, date, location });
+        closeEventModal();
+        loadEvents();
+      }
+    }
+
+    // Delete Event
+    function deleteEvent(eventName) {
+      const index = events.findIndex(event => event.name === eventName);
+      if (index !== -1) {
+        events.splice(index, 1);
+        loadEvents();
+      }
+    }
+
+    // Initial Load
+    loadEvents();
+  </script>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ProNet - Admin Dashboard</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body class="font-sans text-gray-800 bg-gray-100 dark:bg-gray-900 dark:text-white transition-all">
+
+  <div class="flex h-screen">
+
+    <!-- Sidebar -->
+    <aside class="w-64 bg-white dark:bg-gray-800 shadow-lg p-6">
+      <h2 class="text-2xl font-bold mb-6 text-blue-700 dark:text-white">ProNet Admin</h2>
+      <nav class="flex flex-col gap-4 text-gray-700 dark:text-gray-300">
+        <a href="admin_dashboard.html" class="text-blue-600 font-semibold">📊 Dashboard</a>
+        <a href="admin_users.html" class="hover:text-blue-500">👥 Manage Users</a>
+        <a href="admin_revenue.html" class="hover:text-blue-500">💰 Revenue</a>
+        <a href="admin_events.html" class="hover:text-blue-500">📅 Events</a>
+        <a href="settings.html" class="hover:text-blue-500">⚙️ Settings</a>
+        <a href="#" class="hover:text-red-500 mt-6">🚪 Logout</a>
+      </nav>
+    </aside>
+
+    <!-- Main Content -->
+    <main class="flex-1 overflow-auto p-6">
+      <h1 class="text-2xl font-semibold text-blue-700 dark:text-white mb-6">📊 Admin Dashboard</h1>
+
+      <!-- Dashboard Cards -->
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-6">
+        <div class="bg-white dark:bg-gray-800 p-6 rounded-lg shadow">
+          <h2 class="text-lg font-semibold mb-2">👥 Total Users</h2>
+          <p class="text-3xl font-bold" id="totalUsers">0</p>
+        </div>
+        <div class="bg-white dark:bg-gray-800 p-6 rounded-lg shadow">
+          <h2 class="text-lg font-semibold mb-2">📅 Active Events</h2>
+          <p class="text-3xl font-bold" id="activeEvents">0</p>
+        </div>
+        <div class="bg-white dark:bg-gray-800 p-6 rounded-lg shadow">
+          <h2 class="text-lg font-semibold mb-2">💰 Revenue</h2>
+          <p class="text-3xl font-bold">$<span id="revenue">0</span></p>
+        </div>
+      </div>
+
+      <!-- Charts -->
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <div class="bg-white dark:bg-gray-800 p-6 rounded-lg shadow">
+          <h2 class="text-lg font-semibold mb-4">📈 User Growth</h2>
+          <canvas id="userGrowthChart"></canvas>
+        </div>
+        <div class="bg-white dark:bg-gray-800 p-6 rounded-lg shadow">
+          <h2 class="text-lg font-semibold mb-4">💰 Revenue Trends</h2>
+          <canvas id="revenueChart"></canvas>
+        </div>
+      </div>
+    </main>
+  </div>
+
+  <script>
+    // Sample Data for Dashboard
+    const totalUsers = 2000;
+    const activeEvents = 25;
+    const revenue = 153000;
+
+    document.getElementById("totalUsers").textContent = totalUsers;
+    document.getElementById("activeEvents").textContent = activeEvents;
+    document.getElementById("revenue").textContent = revenue.toLocaleString();
+
+    // User Growth Chart
+    const userGrowthCtx = document.getElementById('userGrowthChart').getContext('2d');
+    new Chart(userGrowthCtx, {
+      type: 'line',
+      data: {
+        labels: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun'],
+        datasets: [{
+          label: 'Users',
+          data: [500, 800, 1200, 1600, 1800, 2000],
+          backgroundColor: 'rgba(54, 162, 235, 0.2)',
+          borderColor: 'rgba(54, 162, 235, 1)',
+          borderWidth: 2
+        }]
+      },
+      options: { responsive: true }
+    });
+
+    // Revenue Chart
+    const revenueCtx = document.getElementById('revenueChart').getContext('2d');
+    new Chart(revenueCtx, {
+      type: 'bar',
+      data: {
+        labels: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun'],
+        datasets: [{
+          label: 'Revenue ($)',
+          data: [15000, 22000, 30000, 40000, 45000, 53000],
+          backgroundColor: 'rgba(255, 99, 132, 0.2)',
+          borderColor: 'rgba(255, 99, 132, 1)',
+          borderWidth: 2
+        }]
+      },
+      options: { responsive: true }
+    });
+  </script>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ProNet - Revenue Analytics</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body class="font-sans text-gray-800 bg-gray-100 dark:bg-gray-900 dark:text-white transition-all">
+
+  <div class="flex h-screen">
+
+    <!-- Sidebar -->
+    <aside class="w-64 bg-white dark:bg-gray-800 shadow-lg p-6">
+      <h2 class="text-2xl font-bold mb-6 text-blue-700 dark:text-white">ProNet Admin</h2>
+      <nav class="flex flex-col gap-4 text-gray-700 dark:text-gray-300">
+        <a href="admin_dashboard.html" class="hover:text-blue-500">📊 Dashboard</a>
+        <a href="admin_users.html" class="hover:text-blue-500">👥 Manage Users</a>
+        <a href="admin_revenue.html" class="text-blue-600 font-semibold">💰 Revenue</a>
+        <a href="admin_events.html" class="hover:text-blue-500">📅 Events</a>
+        <a href="settings.html" class="hover:text-blue-500">⚙️ Settings</a>
+        <a href="#" class="hover:text-red-500 mt-6">🚪 Logout</a>
+      </nav>
+    </aside>
+
+    <!-- Main Content -->
+    <main class="flex-1 overflow-auto p-6">
+      <h1 class="text-2xl font-semibold text-blue-700 dark:text-white mb-6">💰 Revenue Analytics</h1>
+
+      <!-- Revenue Overview -->
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-6">
+        <div class="bg-white dark:bg-gray-800 p-6 rounded-lg shadow">
+          <h2 class="text-lg font-semibold mb-2">📆 Monthly Revenue</h2>
+          <p class="text-3xl font-bold">$<span id="monthlyRevenue">0</span></p>
+        </div>
+        <div class="bg-white dark:bg-gray-800 p-6 rounded-lg shadow">
+          <h2 class="text-lg font-semibold mb-2">📈 Subscription Earnings</h2>
+          <p class="text-3xl font-bold">$<span id="subscriptionEarnings">0</span></p>
+        </div>
+        <div class="bg-white dark:bg-gray-800 p-6 rounded-lg shadow">
+          <h2 class="text-lg font-semibold mb-2">🎯 Ad Revenue</h2>
+          <p class="text-3xl font-bold">$<span id="adRevenue">0</span></p>
+        </div>
+      </div>
+
+      <!-- Revenue Breakdown Charts -->
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <div class="bg-white dark:bg-gray-800 p-6 rounded-lg shadow">
+          <h2 class="text-lg font-semibold mb-4">📊 Revenue Breakdown</h2>
+          <canvas id="revenueBreakdownChart"></canvas>
+        </div>
+        <div class="bg-white dark:bg-gray-800 p-6 rounded-lg shadow">
+          <h2 class="text-lg font-semibold mb-4">📈 Revenue Growth</h2>
+          <canvas id="revenueGrowthChart"></canvas>
+        </div>
+      </div>
+    </main>
+  </div>
+
+  <script>
+    // Revenue Data
+    const monthlyRevenue = 25000;
+    const subscriptionEarnings = 15000;
+    const adRevenue = 7000;
+    const transactionFees = 3000;
+
+    document.getElementById("monthlyRevenue").textContent = monthlyRevenue.toLocaleString();
+    document.getElementById("subscriptionEarnings").textContent = subscriptionEarnings.toLocaleString();
+    document.getElementById("adRevenue").textContent = adRevenue.toLocaleString();
+
+    // Revenue Breakdown Pie Chart
+    const revenueBreakdownCtx = document.getElementById('revenueBreakdownChart').getContext('2d');
+    new Chart(revenueBreakdownCtx, {
+      type: 'pie',
+      data: {
+        labels: ['Subscriptions', 'Ad Revenue', 'Transaction Fees'],
+        datasets: [{
+          data: [subscriptionEarnings, adRevenue, transactionFees],
+          backgroundColor: ['#36A2EB', '#FF6384', '#FFCE56']
+        }]
+      },
+      options: { responsive: true }
+    });
+
+    // Revenue Growth Line Chart
+    const revenueGrowthCtx = document.getElementById('revenueGrowthChart').getContext('2d');
+    new Chart(revenueGrowthCtx, {
+      type: 'line',
+      data: {
+        labels: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun'],
+        datasets: [{
+          label: 'Revenue ($)',
+          data: [15000, 18000, 20000, 23000, 25000, 27000],
+          backgroundColor: 'rgba(54, 162, 235, 0.2)',
+          borderColor: 'rgba(54, 162, 235, 1)',
+          borderWidth: 2
+        }]
+      },
+      options: { responsive: true }
+    });
+  </script>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ProNet - Event Management</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="font-sans text-gray-800 bg-gray-100 dark:bg-gray-900 dark:text-white transition-all">
+
+  <div class="flex h-screen">
+
+    <!-- Sidebar -->
+    <aside class="w-64 bg-white dark:bg-gray-800 shadow-lg p-6">
+      <h2 class="text-2xl font-bold mb-6 text-blue-700 dark:text-white">ProNet Admin</h2>
+      <nav class="flex flex-col gap-4 text-gray-700 dark:text-gray-300">
+        <a href="admin_dashboard.html" class="hover:text-blue-500">📊 Dashboard</a>
+        <a href="admin_users.html" class="hover:text-blue-500">👥 Manage Users</a>
+        <a href="admin_revenue.html" class="hover:text-blue-500">💰 Revenue</a>
+        <a href="admin_events.html" class="text-blue-600 font-semibold">📅 Events</a>
+        <a href="settings.html" class="hover:text-blue-500">⚙️ Settings</a>
+        <a href="#" class="hover:text-red-500 mt-6">🚪 Logout</a>
+      </nav>
+    </aside>
+
+    <!-- Main Content -->
+    <main class="flex-1 overflow-auto p-6">
+      <h1 class="text-2xl font-semibold text-blue-700 dark:text-white mb-6">📅 Event Management</h1>
+
+      <!-- Add Event Form -->
+      <div class="bg-white dark:bg-gray-800 p-6 rounded-lg shadow mb-6">
+        <h2 class="text-lg font-semibold mb-4">➕ Create New Event</h2>
+        <form id="eventForm" class="grid grid-cols-1 md:grid-cols-2 gap-4">
+          <input type="text" id="eventName" class="p-2 rounded border" placeholder="Event Name" required>
+          <input type="date" id="eventDate" class="p-2 rounded border" required>
+          <input type="time" id="eventTime" class="p-2 rounded border" required>
+          <input type="text" id="eventLocation" class="p-2 rounded border" placeholder="Location / Online Link" required>
+          <textarea id="eventDescription" class="p-2 rounded border col-span-2" placeholder="Event Description"></textarea>
+          <button type="submit" class="bg-blue-600 text-white p-2 rounded-lg hover:bg-blue-700">Create Event</button>
+        </form>
+      </div>
+
+      <!-- Event List -->
+      <div class="bg-white dark:bg-gray-800 p-6 rounded-lg shadow">
+        <h2 class="text-lg font-semibold mb-4">📌 Upcoming Events</h2>
+        <table class="w-full border-collapse">
+          <thead>
+            <tr class="bg-blue-100 dark:bg-gray-700">
+              <th class="p-2">Event</th>
+              <th class="p-2">Date</th>
+              <th class="p-2">Time</th>
+              <th class="p-2">Location</th>
+              <th class="p-2">Actions</th>
+            </tr>
+          </thead>
+          <tbody id="eventList">
+            <!-- Events will be populated here dynamically -->
+          </tbody>
+        </table>
+      </div>
+    </main>
+  </div>
+
+  <script>
+    // Event Data Array
+    let events = [
+      { name: "Startup Pitch Night", date: "2025-04-15", time: "18:00", location: "Zoom", description: "Join top investors and entrepreneurs." },
+      { name: "Marketing Masterclass", date: "2025-04-20", time: "15:00", location: "NYC Conference Hall", description: "Boost your marketing skills." }
+    ];
+
+    // Load Events
+    function loadEvents() {
+      const eventList = document.getElementById("eventList");
+      eventList.innerHTML = "";
+      events.forEach((event, index) => {
+        eventList.innerHTML += `
+          <tr class="border-b">
+            <td class="p-2">${event.name}</td>
+            <td class="p-2">${event.date}</td>
+            <td class="p-2">${event.time}</td>
+            <td class="p-2">${event.location}</td>
+            <td class="p-2">
+              <button onclick="deleteEvent(${index})" class="text-red-500 hover:text-red-700">❌ Delete</button>
+            </td>
+          </tr>
+        `;
+      });
+    }
+
+    // Add New Event
+    document.getElementById("eventForm").addEventListener("submit", function (e) {
+      e.preventDefault();
+      const newEvent = {
+        name: document.getElementById("eventName").value,
+        date: document.getElementById("eventDate").value,
+        time: document.getElementById("eventTime").value,
+        location: document.getElementById("eventLocation").value,
+        description: document.getElementById("eventDescription").value
+      };
+      events.push(newEvent);
+      loadEvents();
+      this.reset();
+    });
+
+    // Delete Event
+    function deleteEvent(index) {
+      events.splice(index, 1);
+      loadEvents();
+    }
+
+    // Initial Load
+    loadEvents();
+  </script>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ProNet - Admin Settings</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="font-sans text-gray-800 bg-gray-100 dark:bg-gray-900 dark:text-white transition-all">
+
+  <div class="flex h-screen">
+
+    <!-- Sidebar -->
+    <aside class="w-64 bg-white dark:bg-gray-800 shadow-lg p-6">
+      <h2 class="text-2xl font-bold mb-6 text-blue-700 dark:text-white">ProNet Admin</h2>
+      <nav class="flex flex-col gap-4 text-gray-700 dark:text-gray-300">
+        <a href="admin_dashboard.html" class="hover:text-blue-500">📊 Dashboard</a>
+        <a href="admin_users.html" class="hover:text-blue-500">👥 Manage Users</a>
+        <a href="admin_revenue.html" class="hover:text-blue-500">💰 Revenue</a>
+        <a href="admin_events.html" class="hover:text-blue-500">📅 Events</a>
+        <a href="admin_settings.html" class="text-blue-600 font-semibold">⚙️ Settings</a>
+        <a href="#" class="hover:text-red-500 mt-6">🚪 Logout</a>
+      </nav>
+    </aside>
+
+    <!-- Main Content -->
+    <main class="flex-1 overflow-auto p-6">
+      <h1 class="text-2xl font-semibold text-blue-700 dark:text-white mb-6">⚙️ Admin Settings</h1>
+
+      <!-- Theme Toggle -->
+      <div class="bg-white dark:bg-gray-800 p-6 rounded-lg shadow mb-6">
+        <h2 class="text-lg font-semibold mb-4">🎨 Theme Settings</h2>
+        <button id="toggleTheme" class="bg-blue-600 text-white p-2 rounded-lg hover:bg-blue-700">🌙 Toggle Dark Mode</button>
+      </div>
+
+      <!-- Role Management -->
+      <div class="bg-white dark:bg-gray-800 p-6 rounded-lg shadow mb-6">
+        <h2 class="text-lg font-semibold mb-4">👥 User Role Management</h2>
+        <select id="roleSelect" class="p-2 rounded border">
+          <option value="admin">Admin</option>
+          <option value="moderator">Moderator</option>
+          <option value="user">Regular User</option>
+        </select>
+        <button onclick="assignRole()" class="bg-blue-600 text-white p-2 rounded-lg hover:bg-blue-700 ml-2">✔ Assign Role</button>
+      </div>
+
+      <!-- Platform Preferences -->
+      <div class="bg-white dark:bg-gray-800 p-6 rounded-lg shadow">
+        <h2 class="text-lg font-semibold mb-4">⚡ Platform Preferences</h2>
+        <label class="block mb-2">🔔 Enable Email Notifications</label>
+        <input type="checkbox" id="emailNotifications" class="mr-2">
+      </div>
+
+    </main>
+  </div>
+
+  <script>
+    // Dark Mode Toggle
+    document.getElementById("toggleTheme").addEventListener("click", function () {
+      document.body.classList.toggle("dark");
+    });
+
+    // Assign User Role
+    function assignRole() {
+      let selectedRole = document.getElementById("roleSelect").value;
+      alert("Role assigned: " + selectedRole);
+    }
+
+  </script>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ProNet - Notifications</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="font-sans text-gray-800 bg-gray-100 dark:bg-gray-900 dark:text-white transition-all">
+
+  <div class="flex h-screen">
+    
+    <!-- Sidebar -->
+    <aside class="w-64 bg-white dark:bg-gray-800 shadow-lg p-6">
+      <h2 class="text-2xl font-bold mb-6 text-blue-700 dark:text-white">ProNet</h2>
+      <nav class="flex flex-col gap-4 text-gray-700 dark:text-gray-300">
+        <a href="dashboard.html" class="hover:text-blue-500">📊 Dashboard</a>
+        <a href="messages.html" class="hover:text-blue-500">💬 Messages</a>
+        <a href="connections.html" class="hover:text-blue-500">🤝 Connections</a>
+        <a href="events.html" class="hover:text-blue-500">📅 Events</a>
+        <a href="notifications.html" class="text-blue-600 font-semibold">📢 Notifications</a>
+        <a href="#" class="hover:text-red-500 mt-6">🚪 Logout</a>
+      </nav>
+    </aside>
+
+    <!-- Main Content -->
+    <main class="flex-1 overflow-auto p-6">
+      <h1 class="text-2xl font-semibold text-blue-700 dark:text-white mb-6">📢 Notifications</h1>
+
+      <!-- Notifications List -->
+      <div id="notificationsList" class="bg-white dark:bg-gray-800 p-6 rounded-lg shadow">
+        <h2 class="text-lg font-semibold mb-4">🔔 Recent Notifications</h2>
+        <ul id="notifications" class="space-y-4">
+          <!-- Notifications will be dynamically added here -->
+        </ul>
+      </div>
+
+    </main>
+  </div>
+
+  <script>
+    // Dummy Notifications Data (Simulated API Response)
+    const notifications = [
+      { type: "message", text: "📩 You have a new message from John Doe.", time: "2 mins ago" },
+      { type: "connection", text: "🤝 Sarah Lee sent you a connection request.", time: "10 mins ago" },
+      { type: "event", text: "📅 Reminder: 'Tech Startup Summit' starts in 1 hour.", time: "Today at 3:00 PM" },
+      { type: "post", text: "🔥 Trending: 'Investment Tips for 2025' by Alex Carter.", time: "1 hour ago" }
+    ];
+
+    // Render Notifications
+    function renderNotifications() {
+      let notificationsList = document.getElementById("notifications");
+      notificationsList.innerHTML = "";
+      notifications.forEach(notif => {
+        let listItem = document.createElement("li");
+        listItem.className = "p-4 border-b border-gray-300 dark:border-gray-600";
+        listItem.innerHTML = `<span class="block font-semibold">${notif.text}</span><span class="text-sm text-gray-500">${notif.time}</span>`;
+        notificationsList.appendChild(listItem);
+      });
+    }
+
+    // Simulate real-time updates
+    setTimeout(() => {
+      notifications.push({ type: "message", text: "📩 New message from Emily Davis.", time: "Just now" });
+      renderNotifications();
+    }, 5000);
+
+    // Load notifications on page load
+    renderNotifications();
+  </script>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ProNet - Analytics</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="font-sans text-gray-800 bg-gray-100 dark:bg-gray-900 dark:text-white transition-all">
+
+  <div class="flex h-screen">
+    
+    <!-- Sidebar -->
+    <aside class="w-64 bg-white dark:bg-gray-800 shadow-lg p-6">
+      <h2 class="text-2xl font-bold mb-6 text-blue-700 dark:text-white">ProNet</h2>
+      <nav class="flex flex-col gap-4 text-gray-700 dark:text-gray-300">
+        <a href="dashboard.html" class="hover:text-blue-500">📊 Dashboard</a>
+        <a href="messages.html" class="hover:text-blue-500">💬 Messages</a>
+        <a href="connections.html" class="hover:text-blue-500">🤝 Connections</a>
+        <a href="events.html" class="hover:text-blue-500">📅 Events</a>
+        <a href="analytics.html" class="text-blue-600 font-semibold">📊 Analytics</a>
+        <a href="#" class="hover:text-red-500 mt-6">🚪 Logout</a>
+      </nav>
+    </aside>
+
+    <!-- Main Content -->
+    <main class="flex-1 overflow-auto p-6">
+      <h1 class="text-2xl font-semibold text-blue-700 dark:text-white mb-6">📊 Analytics Dashboard</h1>
+
+      <!-- Stats Overview -->
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div class="bg-white dark:bg-gray-800 p-6 rounded-lg shadow">
+          <h2 class="text-lg font-semibold">🤝 Total Connections</h2>
+          <p class="text-3xl font-bold mt-2" id="connectionsCount">0</p>
+        </div>
+
+        <div class="bg-white dark:bg-gray-800 p-6 rounded-lg shadow">
+          <h2 class="text-lg font-semibold">💬 Messages Sent</h2>
+          <p class="text-3xl font-bold mt-2" id="messagesCount">0</p>
+        </div>
+
+        <div class="bg-white dark:bg-gray-800 p-6 rounded-lg shadow">
+          <h2 class="text-lg font-semibold">🔥 Post Engagement</h2>
+          <p class="text-3xl font-bold mt-2" id="engagementCount">0</p>
+        </div>
+      </div>
+
+      <!-- Charts Section -->
+      <div class="mt-8">
+        <h2 class="text-xl font-semibold mb-4">📊 Engagement Trends</h2>
+        <canvas id="analyticsChart" class="bg-white dark:bg-gray-800 p-4 rounded-lg shadow"></canvas>
+      </div>
+
+    </main>
+  </div>
+
+  <script>
+    // Sample Analytics Data
+    const analyticsData = {
+      connections: Math.floor(Math.random() * 500),
+      messages: Math.floor(Math.random() * 2000),
+      engagement: Math.floor(Math.random() * 1000),
+      weeklyActivity: [30, 50, 80, 120, 90, 150, 200]
+    };
+
+    // Update Stats
+    document.getElementById("connectionsCount").textContent = analyticsData.connections;
+    document.getElementById("messagesCount").textContent = analyticsData.messages;
+    document.getElementById("engagementCount").textContent = analyticsData.engagement;
+
+    // Render Chart
+    const ctx = document.getElementById("analyticsChart").getContext("2d");
+    new Chart(ctx, {
+      type: "line",
+      data: {
+        labels: ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"],
+        datasets: [{
+          label: "User Engagement",
+          data: analyticsData.weeklyActivity,
+          borderColor: "blue",
+          fill: false
+        }]
+      }
+    });
+  </script>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ProNet - Posts</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="font-sans text-gray-800 bg-gray-100 dark:bg-gray-900 dark:text-white transition-all">
+
+  <div class="flex h-screen">
+    
+    <!-- Sidebar -->
+    <aside class="w-64 bg-white dark:bg-gray-800 shadow-lg p-6">
+      <h2 class="text-2xl font-bold mb-6 text-blue-700 dark:text-white">ProNet</h2>
+      <nav class="flex flex-col gap-4 text-gray-700 dark:text-gray-300">
+        <a href="dashboard.html" class="hover:text-blue-500">📊 Dashboard</a>
+        <a href="messages.html" class="hover:text-blue-500">💬 Messages</a>
+        <a href="connections.html" class="hover:text-blue-500">🤝 Connections</a>
+        <a href="events.html" class="hover:text-blue-500">📅 Events</a>
+        <a href="posts.html" class="text-blue-600 font-semibold">📝 Posts</a>
+        <a href="#" class="hover:text-red-500 mt-6">🚪 Logout</a>
+      </nav>
+    </aside>
+
+    <!-- Main Content -->
+    <main class="flex-1 overflow-auto p-6">
+      <h1 class="text-2xl font-semibold text-blue-700 dark:text-white mb-6">📝 Create & Engage with Posts</h1>
+
+      <!-- Create Post Section -->
+      <div class="bg-white dark:bg-gray-800 p-6 rounded-lg shadow mb-6">
+        <h2 class="text-lg font-semibold">✍️ Create a Post</h2>
+        <textarea id="postContent" class="w-full mt-2 p-3 rounded-lg border border-gray-300 dark:border-gray-600 dark:bg-gray-700 dark:text-white" rows="3" placeholder="Share a business update..."></textarea>
+        <button onclick="createPost()" class="mt-3 bg-blue-600 hover:bg-blue-700 text-white py-2 px-4 rounded-lg">Post</button>
+      </div>
+
+      <!-- Posts Feed -->
+      <div class="bg-white dark:bg-gray-800 p-6 rounded-lg shadow">
+        <h2 class="text-lg font-semibold mb-4">🔥 Trending Posts</h2>
+        <ul id="postsFeed" class="space-y-4">
+          <!-- Posts will be dynamically added here -->
+        </ul>
+      </div>
+
+    </main>
+  </div>
+
+  <script>
+    // Dummy Posts Data (Simulated API Response)
+    let posts = [
+      { author: "John Doe", content: "🚀 Just launched a new startup! Excited for the journey!", likes: 23 },
+      { author: "Sarah Lee", content: "🔍 Looking for an investor in the SaaS industry. Let's connect!", likes: 15 },
+      { author: "Alex Carter", content: "📊 Market trends show a 20% increase in fintech investments!", likes: 30 }
+    ];
+
+    // Render Posts
+    function renderPosts() {
+      let postsFeed = document.getElementById("postsFeed");
+      postsFeed.innerHTML = "";
+      posts.forEach((post, index) => {
+        let listItem = document.createElement("li");
+        listItem.className = "p-4 border-b border-gray-300 dark:border-gray-600";
+        listItem.innerHTML = `
+          <span class="block font-semibold">${post.author}</span>
+          <p class="text-gray-700 dark:text-gray-300">${post.content}</p>
+          <button onclick="likePost(${index})" class="text-blue-500 hover:underline mt-2">👍 Like (${post.likes})</button>
+        `;
+        postsFeed.appendChild(listItem);
+      });
+    }
+
+    // Create New Post
+    function createPost() {
+      let postContent = document.getElementById("postContent").value.trim();
+      if (postContent) {
+        posts.unshift({ author: "You", content: postContent, likes: 0 });
+        document.getElementById("postContent").value = "";
+        renderPosts();
+      }
+    }
+
+    // Like Post
+    function likePost(index) {
+      posts[index].likes++;
+      renderPosts();
+    }
+
+    // Load posts on page load
+    renderPosts();
+  </script>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ProNet - Events</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="font-sans text-gray-800 bg-gray-100 dark:bg-gray-900 dark:text-white transition-all">
+
+  <div class="flex h-screen">
+    
+    <!-- Sidebar -->
+    <aside class="w-64 bg-white dark:bg-gray-800 shadow-lg p-6">
+      <h2 class="text-2xl font-bold mb-6 text-blue-700 dark:text-white">ProNet</h2>
+      <nav class="flex flex-col gap-4 text-gray-700 dark:text-gray-300">
+        <a href="dashboard.html" class="hover:text-blue-500">📊 Dashboard</a>
+        <a href="messages.html" class="hover:text-blue-500">💬 Messages</a>
+        <a href="connections.html" class="hover:text-blue-500">🤝 Connections</a>
+        <a href="posts.html" class="hover:text-blue-500">📝 Posts</a>
+        <a href="events.html" class="text-blue-600 font-semibold">📅 Events</a>
+        <a href="#" class="hover:text-red-500 mt-6">🚪 Logout</a>
+      </nav>
+    </aside>
+
+    <!-- Main Content -->
+    <main class="flex-1 overflow-auto p-6">
+      <h1 class="text-2xl font-semibold text-blue-700 dark:text-white mb-6">📅 Networking Events</h1>
+
+      <!-- Filters -->
+      <div class="mb-6 flex space-x-4">
+        <select id="filterIndustry" class="p-2 rounded-lg border dark:border-gray-600 dark:bg-gray-700 dark:text-white">
+          <option value="">All Industries</option>
+          <option value="Tech">Tech</option>
+          <option value="Finance">Finance</option>
+          <option value="Marketing">Marketing</option>
+        </select>
+        <select id="filterLocation" class="p-2 rounded-lg border dark:border-gray-600 dark:bg-gray-700 dark:text-white">
+          <option value="">All Locations</option>
+          <option value="New York">New York</option>
+          <option value="London">London</option>
+          <option value="Dubai">Dubai</option>
+        </select>
+        <button onclick="filterEvents()" class="bg-blue-600 hover:bg-blue-700 text-white py-2 px-4 rounded-lg">Filter</button>
+      </div>
+
+      <!-- Event List -->
+      <div id="eventsList" class="space-y-4">
+        <!-- Events will be dynamically added here -->
+      </div>
+    </main>
+  </div>
+
+  <script>
+    let events = [
+      { title: "🚀 Startup Pitch Night", industry: "Tech", location: "New York", date: "April 10, 2025" },
+      { title: "💰 Fintech Investment Meetup", industry: "Finance", location: "London", date: "April 15, 2025" },
+      { title: "📈 Digital Marketing Workshop", industry: "Marketing", location: "Dubai", date: "April 20, 2025" }
+    ];
+
+    function renderEvents(filteredEvents = events) {
+      let eventsList = document.getElementById("eventsList");
+      eventsList.innerHTML = "";
+      filteredEvents.forEach(event => {
+        let div = document.createElement("div");
+        div.className = "p-4 bg-white dark:bg-gray-800 rounded-lg shadow border dark:border-gray-600";
+        div.innerHTML = `
+          <h2 class="text-lg font-semibold">${event.title}</h2>
+          <p class="text-gray-600 dark:text-gray-300">${event.industry} | ${event.location} | 📅 ${event.date}</p>
+          <button onclick="rsvpEvent('${event.title}')" class="mt-2 bg-green-600 hover:bg-green-700 text-white py-1 px-3 rounded-lg">RSVP</button>
+        `;
+        eventsList.appendChild(div);
+      });
+    }
+
+    function filterEvents() {
+      let industry = document.getElementById("filterIndustry").value;
+      let location = document.getElementById("filterLocation").value;
+      let filtered = events.filter(e => 
+        (!industry || e.industry === industry) &&
+        (!location || e.location === location)
+      );
+      renderEvents(filtered);
+    }
+
+    function rsvpEvent(title) {
+      alert(`✅ You have successfully RSVPed for: ${title}`);
+    }
+
+    renderEvents();
+  </script>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ProNet - Subscription Plans</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="font-sans text-gray-800 bg-gray-100 dark:bg-gray-900 dark:text-white transition-all">
+
+  <div class="flex h-screen">
+    
+    <!-- Sidebar -->
+    <aside class="w-64 bg-white dark:bg-gray-800 shadow-lg p-6">
+      <h2 class="text-2xl font-bold mb-6 text-blue-700 dark:text-white">ProNet</h2>
+      <nav class="flex flex-col gap-4 text-gray-700 dark:text-gray-300">
+        <a href="dashboard.html" class="hover:text-blue-500">📊 Dashboard</a>
+        <a href="messages.html" class="hover:text-blue-500">💬 Messages</a>
+        <a href="connections.html" class="hover:text-blue-500">🤝 Connections</a>
+        <a href="posts.html" class="hover:text-blue-500">📝 Posts</a>
+        <a href="events.html" class="hover:text-blue-500">📅 Events</a>
+        <a href="subscription.html" class="text-blue-600 font-semibold">💰 Subscription</a>
+        <a href="#" class="hover:text-red-500 mt-6">🚪 Logout</a>
+      </nav>
+    </aside>
+
+    <!-- Main Content -->
+    <main class="flex-1 overflow-auto p-6">
+      <h1 class="text-2xl font-semibold text-blue-700 dark:text-white mb-6">💰 Choose Your Plan</h1>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+
+        <!-- Free Plan -->
+        <div class="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-lg border dark:border-gray-600 text-center">
+          <h2 class="text-xl font-semibold">🚀 Free Plan</h2>
+          <p class="text-gray-600 dark:text-gray-300 mt-2">Basic networking & profile visibility</p>
+          <p class="text-3xl font-bold mt-4">$0/month</p>
+          <button class="mt-4 bg-gray-400 dark:bg-gray-700 text-white py-2 px-4 rounded-lg cursor-not-allowed">Current Plan</button>
+        </div>
+
+        <!-- Premium Plan -->
+        <div class="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-lg border border-blue-500 dark:border-blue-400 text-center">
+          <h2 class="text-xl font-semibold">💎 Premium Plan</h2>
+          <p class="text-gray-600 dark:text-gray-300 mt-2">Exclusive matchmaking & unlimited messages</p>
+          <p class="text-3xl font-bold mt-4">$19/month</p>
+          <button onclick="subscribe('Premium')" class="mt-4 bg-blue-600 hover:bg-blue-700 text-white py-2 px-4 rounded-lg">Subscribe</button>
+        </div>
+
+        <!-- Elite Plan -->
+        <div class="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-lg border border-yellow-500 dark:border-yellow-400 text-center">
+          <h2 class="text-xl font-semibold">🏆 Elite Plan</h2>
+          <p class="text-gray-600 dark:text-gray-300 mt-2">VIP networking & direct investor access</p>
+          <p class="text-3xl font-bold mt-4">$49/month</p>
+          <button onclick="subscribe('Elite')" class="mt-4 bg-yellow-600 hover:bg-yellow-700 text-white py-2 px-4 rounded-lg">Subscribe</button>
+        </div>
+
+      </div>
+    </main>
+  </div>
+
+  <script>
+    function subscribe(plan) {
+      alert(`✅ You have successfully subscribed to the ${plan} Plan!`);
+    }
+  </script>
+
+</body>
+  </html>
+<!-- Payment Form -->
+<form id="payment-form" class="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-lg border dark:border-gray-600">
+    <h2 class="text-xl font-semibold">💳 Enter Payment Details</h2>
+    <div id="card-element" class="border p-3 rounded mt-4"></div>
+    <p id="card-errors" class="text-red-500 mt-2"></p>
+    <button type="submit" class="mt-4 bg-green-600 hover:bg-green-700 text-white py-2 px-4 rounded-lg">
+        Complete Payment
+    </button>
+</form>
+<script src="https://js.stripe.com/v3/"></script>
+<script src="payment.js"></script>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ProNet - Admin Dashboard</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="font-sans text-gray-800 bg-gray-100 dark:bg-gray-900 dark:text-white transition-all">
+
+  <div class="flex h-screen">
+    
+    <!-- Sidebar -->
+    <aside class="w-64 bg-white dark:bg-gray-800 shadow-lg p-6">
+      <h2 class="text-2xl font-bold mb-6 text-blue-700 dark:text-white">📊 Admin Panel</h2>
+      <nav class="flex flex-col gap-4 text-gray-700 dark:text-gray-300">
+        <a href="admin_dashboard.html" class="text-blue-600 font-semibold">📊 Dashboard</a>
+        <a href="admin_users.html" class="hover:text-blue-500">👥 Users</a>
+        <a href="admin_subscriptions.html" class="hover:text-blue-500">💰 Subscriptions</a>
+        <a href="admin_reports.html" class="hover:text-blue-500">⚠️ Reports</a>
+        <a href="admin_settings.html" class="hover:text-blue-500">⚙️ Settings</a>
+        <a href="#" class="hover:text-red-500 mt-6">🚪 Logout</a>
+      </nav>
+    </aside>
+
+    <!-- Main Content -->
+    <main class="flex-1 overflow-auto p-6">
+      <h1 class="text-2xl font-semibold text-blue-700 dark:text-white mb-6">📊 Revenue & Subscription Analytics</h1>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+
+        <!-- Revenue Card -->
+        <div class="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-lg">
+          <h2 class="text-xl font-semibold">💰 Total Revenue</h2>
+          <p class="text-3xl font-bold mt-4" id="total-revenue">$0</p>
+        </div>
+
+        <!-- Active Subscriptions -->
+        <div class="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-lg">
+          <h2 class="text-xl font-semibold">👥 Active Subscribers</h2>
+          <p class="text-3xl font-bold mt-4" id="active-subscribers">0</p>
+        </div>
+
+      </div>
+
+      <!-- Revenue Chart -->
+      <div class="mt-8 p-6 bg-white dark:bg-gray-800 rounded-lg shadow-lg">
+        <h2 class="text-xl font-semibold">📈 Monthly Revenue Growth</h2>
+        <canvas id="revenue-chart" class="mt-4"></canvas>
+      </div>
+      
+    </main>
+  </div>
+
+  <script src="admin_dashboard.js"></script>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ProNet - User Management</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="font-sans text-gray-800 bg-gray-100 dark:bg-gray-900 dark:text-white transition-all">
+
+    <div class="flex h-screen">
+        
+        <!-- Sidebar -->
+        <aside class="w-64 bg-white dark:bg-gray-800 shadow-lg p-6">
+            <h2 class="text-2xl font-bold mb-6 text-blue-700 dark:text-white">📊 Admin Panel</h2>
+            <nav class="flex flex-col gap-4 text-gray-700 dark:text-gray-300">
+                <a href="admin_dashboard.html" class="hover:text-blue-500">📊 Dashboard</a>
+                <a href="admin_users.html" class="text-blue-600 font-semibold">👥 Users</a>
+                <a href="admin_subscriptions.html" class="hover:text-blue-500">💰 Subscriptions</a>
+                <a href="admin_reports.html" class="hover:text-blue-500">⚠️ Reports</a>
+                <a href="admin_settings.html" class="hover:text-blue-500">⚙️ Settings</a>
+                <a href="#" class="hover:text-red-500 mt-6">🚪 Logout</a>
+            </nav>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="flex-1 overflow-auto p-6">
+            <h1 class="text-2xl font-semibold text-blue-700 dark:text-white mb-6">👥 User Management</h1>
+
+            <!-- Search and Filter -->
+            <div class="flex gap-4 mb-6">
+                <input type="text" id="search-user" placeholder="🔍 Search Users" 
+                    class="p-3 border rounded-lg w-full dark:bg-gray-700 dark:border-gray-600">
+                <select id="filter-role" class="p-3 border rounded-lg dark:bg-gray-700 dark:border-gray-600">
+                    <option value="">All Roles</option>
+                    <option value="Member">Member</option>
+                    <option value="Premium">Premium</option>
+                    <option value="Admin">Admin</option>
+                </select>
+            </div>
+
+            <!-- User Table -->
+            <div class="bg-white dark:bg-gray-800 rounded-lg shadow-lg overflow-auto">
+                <table class="w-full table-auto">
+                    <thead class="bg-blue-600 text-white">
+                        <tr>
+                            <th class="p-3 text-left">👤 Name</th>
+                            <th class="p-3">📧 Email</th>
+                            <th class="p-3">🔖 Role</th>
+                            <th class="p-3">⚙️ Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody id="user-list" class="text-gray-700 dark:text-gray-300">
+                        <!-- Dynamic User Data Here -->
+                    </tbody>
+                </table>
+            </div>
+
+        </main>
+    </div>
+
+    <script src="admin_users.js"></script>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ProNet - Admin Dashboard</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="font-sans text-gray-800 bg-gray-100 dark:bg-gray-900 dark:text-white transition-all">
+
+    <div class="flex h-screen">
+        
+        <!-- Sidebar -->
+        <aside class="w-64 bg-white dark:bg-gray-800 shadow-lg p-6">
+            <h2 class="text-2xl font-bold mb-6 text-blue-700 dark:text-white">📊 Admin Panel</h2>
+            <nav class="flex flex-col gap-4 text-gray-700 dark:text-gray-300">
+                <a href="admin_dashboard.html" class="text-blue-600 font-semibold">📊 Dashboard</a>
+                <a href="admin_users.html" class="hover:text-blue-500">👥 Users</a>
+                <a href="admin_subscriptions.html" class="hover:text-blue-500">💰 Subscriptions</a>
+                <a href="admin_reports.html" class="hover:text-blue-500">⚠️ Reports</a>
+                <a href="admin_settings.html" class="hover:text-blue-500">⚙️ Settings</a>
+                <a href="#" class="hover:text-red-500 mt-6">🚪 Logout</a>
+            </nav>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="flex-1 overflow-auto p-6">
+            <h1 class="text-2xl font-semibold text-blue-700 dark:text-white mb-6">📊 Admin Dashboard</h1>
+
+            <!-- Stats Cards -->
+            <div class="grid grid-cols-3 gap-6">
+                <div class="bg-white dark:bg-gray-800 p-6 rounded-lg shadow">
+                    <h2 class="text-xl font-semibold text-gray-600 dark:text-gray-300">👥 Total Users</h2>
+                    <p id="total-users" class="text-3xl font-bold text-blue-600 mt-2">-</p>
+                </div>
+                <div class="bg-white dark:bg-gray-800 p-6 rounded-lg shadow">
+                    <h2 class="text-xl font-semibold text-gray-600 dark:text-gray-300">🚀 Active Users</h2>
+                    <p id="active-users" class="text-3xl font-bold text-green-600 mt-2">-</p>
+                </div>
+                <div class="bg-white dark:bg-gray-800 p-6 rounded-lg shadow">
+                    <h2 class="text-xl font-semibold text-gray-600 dark:text-gray-300">💎 Premium Users</h2>
+                    <p id="premium-users" class="text-3xl font-bold text-yellow-500 mt-2">-</p>
+                </div>
+            </div>
+
+            <!-- Charts -->
+            <div class="mt-10 bg-white dark:bg-gray-800 p-6 rounded-lg shadow">
+                <h2 class="text-xl font-semibold text-gray-600 dark:text-gray-300">📈 User Growth</h2>
+                <canvas id="userGrowthChart"></canvas>
+            </div>
+        </main>
+    </div>
+
+    <script src="admin_dashboard.js"></script>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ProNet - Admin Dashboard</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/2.0.5/FileSaver.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="font-sans text-gray-800 bg-gray-100 dark:bg-gray-900 dark:text-white transition-all">
+
+    <div class="flex h-screen">
+        
+        <!-- Sidebar -->
+        <aside class="w-64 bg-white dark:bg-gray-800 shadow-lg p-6">
+            <h2 class="text-2xl font-bold mb-6 text-blue-700 dark:text-white">📊 Admin Panel</h2>
+            <nav class="flex flex-col gap-4 text-gray-700 dark:text-gray-300">
+                <a href="admin_dashboard.html" class="text-blue-600 font-semibold">📊 Dashboard</a>
+                <a href="admin_users.html" class="hover:text-blue-500">👥 Users</a>
+                <a href="admin_subscriptions.html" class="hover:text-blue-500">💰 Subscriptions</a>
+                <a href="admin_reports.html" class="hover:text-blue-500">⚠️ Reports</a>
+                <a href="admin_settings.html" class="hover:text-blue-500">⚙️ Settings</a>
+                <a href="#" class="hover:text-red-500 mt-6">🚪 Logout</a>
+            </nav>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="flex-1 overflow-auto p-6">
+            <h1 class="text-2xl font-semibold text-blue-700 dark:text-white mb-6">📊 Admin Dashboard</h1>
+
+            <!-- Stats Cards -->
+            <div class="grid grid-cols-3 gap-6">
+                <div class="bg-white dark:bg-gray-800 p-6 rounded-lg shadow">
+                    <h2 class="text-xl font-semibold text-gray-600 dark:text-gray-300">👥 Total Users</h2>
+                    <p id="total-users" class="text-3xl font-bold text-blue-600 mt-2">-</p>
+                </div>
+                <div class="bg-white dark:bg-gray-800 p-6 rounded-lg shadow">
+                    <h2 class="text-xl font-semibold text-gray-600 dark:text-gray-300">🚀 Active Users</h2>
+                    <p id="active-users" class="text-3xl font-bold text-green-600 mt-2">-</p>
+                </div>
+                <div class="bg-white dark:bg-gray-800 p-6 rounded-lg shadow">
+                    <h2 class="text-xl font-semibold text-gray-600 dark:text-gray-300">💎 Premium Users</h2>
+                    <p id="premium-users" class="text-3xl font-bold text-yellow-500 mt-2">-</p>
+                </div>
+            </div>
+
+            <!-- Revenue & Subscription Analytics -->
+            <div class="mt-10 grid grid-cols-2 gap-6">
+                
+                <!-- Subscription Pie Chart -->
+                <div class="bg-white dark:bg-gray-800 p-6 rounded-lg shadow">
+                    <h2 class="text-xl font-semibold text-gray-600 dark:text-gray-300">💰 Subscription Insights</h2>
+                    <canvas id="subscriptionChart"></canvas>
+                </div>
+
+                <!-- Monthly Revenue Line Chart -->
+                <div class="bg-white dark:bg-gray-800 p-6 rounded-lg shadow">
+                    <h2 class="text-xl font-semibold text-gray-600 dark:text-gray-300">📈 Monthly Revenue</h2>
+                    <canvas id="revenueChart"></canvas>
+                </div>
+            </div>
+
+            <!-- Export Report -->
+            <div class="mt-6">
+                <button onclick="exportReport()" class="bg-blue-600 text-white px-4 py-2 rounded shadow hover:bg-blue-700">
+                    📄 Export Report (CSV)
+                </button>
+            </div>
+        </main>
+    </div>
+
+    <script src="admin_dashboard.js"></script>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ProNet - Report Management</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="font-sans text-gray-800 bg-gray-100 dark:bg-gray-900 dark:text-white transition-all">
+
+    <div class="flex h-screen">
+        
+        <!-- Sidebar -->
+        <aside class="w-64 bg-white dark:bg-gray-800 shadow-lg p-6">
+            <h2 class="text-2xl font-bold mb-6 text-blue-700 dark:text-white">🛡️ Reported Users</h2>
+            <nav class="flex flex-col gap-4 text-gray-700 dark:text-gray-300">
+                <a href="admin_dashboard.html" class="hover:text-blue-500">📊 Dashboard</a>
+                <a href="admin_users.html" class="hover:text-blue-500">👥 Users</a>
+                <a href="admin_subscriptions.html" class="hover:text-blue-500">💰 Subscriptions</a>
+                <a href="admin_reports.html" class="text-blue-600 font-semibold">⚠️ Reports</a>
+                <a href="admin_settings.html" class="hover:text-blue-500">⚙️ Settings</a>
+                <a href="#" class="hover:text-red-500 mt-6">🚪 Logout</a>
+            </nav>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="flex-1 overflow-auto p-6">
+            <h1 class="text-2xl font-semibold text-blue-700 dark:text-white mb-6">⚠️ User Reports</h1>
+
+            <table class="w-full bg-white dark:bg-gray-800 rounded-lg shadow-lg">
+                <thead>
+                    <tr class="text-left text-gray-600 dark:text-gray-300 bg-gray-200 dark:bg-gray-700">
+                        <th class="p-4">User</th>
+                        <th class="p-4">Reason</th>
+                        <th class="p-4">Reported By</th>
+                        <th class="p-4">Action</th>
+                    </tr>
+                </thead>
+                <tbody id="report-list">
+                    <!-- Reports will be populated dynamically -->
+                </tbody>
+            </table>
+        </main>
+    </div>
+
+    <script src="admin_reports.js"></script>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ProNet - Admin Analytics</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body class="font-sans text-gray-800 bg-gray-100 dark:bg-gray-900 dark:text-white transition-all">
+
+    <div class="flex h-screen">
+        
+        <!-- Sidebar -->
+        <aside class="w-64 bg-white dark:bg-gray-800 shadow-lg p-6">
+            <h2 class="text-2xl font-bold mb-6 text-blue-700 dark:text-white">📊 Analytics</h2>
+            <nav class="flex flex-col gap-4 text-gray-700 dark:text-gray-300">
+                <a href="admin_dashboard.html" class="hover:text-blue-500">🏠 Dashboard</a>
+                <a href="admin_users.html" class="hover:text-blue-500">👥 Users</a>
+                <a href="admin_subscriptions.html" class="hover:text-blue-500">💰 Subscriptions</a>
+                <a href="admin_reports.html" class="hover:text-blue-500">⚠️ Reports</a>
+                <a href="admin_analytics.html" class="text-blue-600 font-semibold">📊 Analytics</a>
+                <a href="admin_settings.html" class="hover:text-blue-500">⚙️ Settings</a>
+                <a href="#" class="hover:text-red-500 mt-6">🚪 Logout</a>
+            </nav>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="flex-1 overflow-auto p-6">
+            <h1 class="text-2xl font-semibold text-blue-700 dark:text-white mb-6">📊 Platform Analytics</h1>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <!-- User Growth Chart -->
+                <div class="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-lg">
+                    <h2 class="text-xl font-semibold mb-4">📈 User Growth</h2>
+                    <canvas id="userGrowthChart"></canvas>
+                </div>
+
+                <!-- Post Engagement Chart -->
+                <div class="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-lg">
+                    <h2 class="text-xl font-semibold mb-4">❤️ Post Engagement</h2>
+                    <canvas id="postEngagementChart"></canvas>
+                </div>
+            </div>
+
+            <div class="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-lg mt-6">
+                <h2 class="text-xl font-semibold mb-4">⚠️ Reported Cases</h2>
+                <canvas id="reportCasesChart"></canvas>
+            </div>
+
+        </main>
+    </div>
+
+    <script src="admin_analytics.js"></script>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ProNet - Admin Users</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/alpinejs@3.10.2/dist/cdn.min.js" defer></script>
+</head>
+<body class="font-sans text-gray-800 bg-gray-100 dark:bg-gray-900 dark:text-white transition-all">
+
+    <div class="flex h-screen">
+        
+        <!-- Sidebar -->
+        <aside class="w-64 bg-white dark:bg-gray-800 shadow-lg p-6">
+            <h2 class="text-2xl font-bold mb-6 text-blue-700 dark:text-white">👥 User Management</h2>
+            <nav class="flex flex-col gap-4 text-gray-700 dark:text-gray-300">
+                <a href="admin_dashboard.html" class="hover:text-blue-500">🏠 Dashboard</a>
+                <a href="admin_users.html" class="text-blue-600 font-semibold">👥 Users</a>
+                <a href="admin_subscriptions.html" class="hover:text-blue-500">💰 Subscriptions</a>
+                <a href="admin_reports.html" class="hover:text-blue-500">⚠️ Reports</a>
+                <a href="admin_analytics.html" class="hover:text-blue-500">📊 Analytics</a>
+                <a href="admin_settings.html" class="hover:text-blue-500">⚙️ Settings</a>
+                <a href="#" class="hover:text-red-500 mt-6">🚪 Logout</a>
+            </nav>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="flex-1 overflow-auto p-6" x-data="{ search: '' }">
+            <h1 class="text-2xl font-semibold text-blue-700 dark:text-white mb-6">👥 User Management</h1>
+
+            <!-- Search Bar -->
+            <div class="mb-4">
+                <input type="text" x-model="search" placeholder="🔍 Search users..." class="w-full p-3 rounded-md border">
+            </div>
+
+            <!-- User Table -->
+            <div class="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-lg overflow-auto">
+                <table class="w-full text-left border-collapse">
+                    <thead>
+                        <tr class="bg-gray-200 dark:bg-gray-700">
+                            <th class="p-3">👤 Name</th>
+                            <th class="p-3">📧 Email</th>
+                            <th class="p-3">🏢 Business</th>
+                            <th class="p-3">🔵 Status</th>
+                            <th class="p-3">⚙️ Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <template x-for="user in users.filter(u => u.name.toLowerCase().includes(search.toLowerCase()))" :key="user.id">
+                            <tr class="border-b">
+                                <td class="p-3" x-text="user.name"></td>
+                                <td class="p-3" x-text="user.email"></td>
+                                <td class="p-3" x-text="user.business"></td>
+                                <td class="p-3">
+                                    <span :class="user.status === 'Active' ? 'text-green-500' : 'text-red-500'" x-text="user.status"></span>
+                                </td>
+                                <td class="p-3">
+                                    <button @click="suspendUser(user.id)" class="bg-red-500 text-white px-3 py-1 rounded-md">Suspend</button>
+                                    <button @click="deleteUser(user.id)" class="bg-gray-500 text-white px-3 py-1 rounded-md">Delete</button>
+                                </td>
+                            </tr>
+                        </template>
+                    </tbody>
+                </table>
+            </div>
+        </main>
+    </div>
+
+    <script src="admin_users.js"></script>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ProNet - Admin Analytics</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/alpinejs@3.10.2/dist/cdn.min.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body class="font-sans text-gray-800 bg-gray-100 dark:bg-gray-900 dark:text-white transition-all">
+
+    <div class="flex h-screen">
+        
+        <!-- Sidebar -->
+        <aside class="w-64 bg-white dark:bg-gray-800 shadow-lg p-6">
+            <h2 class="text-2xl font-bold mb-6 text-blue-700 dark:text-white">📊 Analytics</h2>
+            <nav class="flex flex-col gap-4 text-gray-700 dark:text-gray-300">
+                <a href="admin_dashboard.html" class="hover:text-blue-500">🏠 Dashboard</a>
+                <a href="admin_users.html" class="hover:text-blue-500">👥 Users</a>
+                <a href="admin_subscriptions.html" class="hover:text-blue-500">💰 Subscriptions</a>
+                <a href="admin_reports.html" class="hover:text-blue-500">⚠️ Reports</a>
+                <a href="admin_analytics.html" class="text-blue-600 font-semibold">📊 Analytics</a>
+                <a href="admin_settings.html" class="hover:text-blue-500">⚙️ Settings</a>
+                <a href="#" class="hover:text-red-500 mt-6">🚪 Logout</a>
+            </nav>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="flex-1 overflow-auto p-6" x-data="{ userGrowth: [100, 150, 220, 280, 350, 400], revenue: [500, 700, 1200, 1800, 2500, 3100] }">
+            <h1 class="text-2xl font-semibold text-blue-700 dark:text-white mb-6">📊 Platform Analytics</h1>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <!-- User Growth Chart -->
+                <div class="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-lg">
+                    <h2 class="text-xl font-semibold mb-4">📈 User Growth</h2>
+                    <canvas id="userGrowthChart"></canvas>
+                </div>
+
+                <!-- Revenue Chart -->
+                <div class="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-lg">
+                    <h2 class="text-xl font-semibold mb-4">💰 Revenue Overview</h2>
+                    <canvas id="revenueChart"></canvas>
+                </div>
+            </div>
+
+            <!-- Engagement Stats -->
+            <div class="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-lg mt-6">
+                <h2 class="text-xl font-semibold mb-4">📊 Engagement Metrics</h2>
+                <ul class="list-disc list-inside">
+                    <li>📝 Posts Created: <span x-text="Math.floor(Math.random() * 5000)"></span></li>
+                    <li>💬 Messages Sent: <span x-text="Math.floor(Math.random() * 8000)"></span></li>
+                    <li>🔗 Connections Made: <span x-text="Math.floor(Math.random() * 3000)"></span></li>
+                    <li>⚠️ Reports Filed: <span x-text="Math.floor(Math.random() * 200)"></span></li>
+                </ul>
+            </div>
+
+        </main>
+    </div>
+
+    <script src="admin_analytics.js"></script>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ProNet - User Management</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/alpinejs@3.10.2/dist/cdn.min.js" defer></script>
+</head>
+<body class="font-sans text-gray-800 bg-gray-100 dark:bg-gray-900 dark:text-white transition-all">
+
+    <div class="flex h-screen">
+        
+        <!-- Sidebar -->
+        <aside class="w-64 bg-white dark:bg-gray-800 shadow-lg p-6">
+            <h2 class="text-2xl font-bold mb-6 text-blue-700 dark:text-white">👥 Users</h2>
+            <nav class="flex flex-col gap-4 text-gray-700 dark:text-gray-300">
+                <a href="admin_dashboard.html" class="hover:text-blue-500">🏠 Dashboard</a>
+                <a href="admin_users.html" class="text-blue-600 font-semibold">👥 Users</a>
+                <a href="admin_subscriptions.html" class="hover:text-blue-500">💰 Subscriptions</a>
+                <a href="admin_reports.html" class="hover:text-blue-500">⚠️ Reports</a>
+                <a href="admin_analytics.html" class="hover:text-blue-500">📊 Analytics</a>
+                <a href="admin_settings.html" class="hover:text-blue-500">⚙️ Settings</a>
+                <a href="#" class="hover:text-red-500 mt-6">🚪 Logout</a>
+            </nav>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="flex-1 overflow-auto p-6" x-data="{ search: '', users: [
+            { id: 1, name: 'Alice Johnson', role: 'Entrepreneur', status: 'Active' },
+            { id: 2, name: 'Bob Smith', role: 'Investor', status: 'Active' },
+            { id: 3, name: 'Charlie Brown', role: 'Mentor', status: 'Suspended' },
+            { id: 4, name: 'David White', role: 'Business Owner', status: 'Active' }
+        ] }">
+            <h1 class="text-2xl font-semibold text-blue-700 dark:text-white mb-6">👥 User Management</h1>
+
+            <!-- Search Bar -->
+            <div class="mb-6">
+                <input x-model="search" type="text" placeholder="Search users..." 
+                    class="w-full p-3 border rounded-lg focus:outline-none focus:ring focus:ring-blue-300">
+            </div>
+
+            <!-- User Table -->
+            <div class="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-lg">
+                <table class="w-full border-collapse">
+                    <thead>
+                        <tr class="bg-blue-700 text-white">
+                            <th class="p-3 text-left">Name</th>
+                            <th class="p-3 text-left">Role</th>
+                            <th class="p-3 text-left">Status</th>
+                            <th class="p-3 text-center">Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <template x-for="user in users.filter(u => u.name.toLowerCase().includes(search.toLowerCase()))">
+                            <tr class="border-b">
+                                <td class="p-3" x-text="user.name"></td>
+                                <td class="p-3" x-text="user.role"></td>
+                                <td class="p-3" :class="user.status === 'Active' ? 'text-green-500' : 'text-red-500'" x-text="user.status"></td>
+                                <td class="p-3 text-center">
+                                    <button class="bg-yellow-500 text-white px-4 py-2 rounded" @click="editUser(user.id)">✏️ Edit</button>
+                                    <button class="bg-red-500 text-white px-4 py-2 rounded ml-2" @click="toggleStatus(user.id)">
+                                        <span x-text="user.status === 'Active' ? 'Suspend' : 'Activate'"></span>
+                                    </button>
+                                </td>
+                            </tr>
+                        </template>
+                    </tbody>
+                </table>
+            </div>
+        </main>
+    </div>
+
+    <script src="admin_users.js"></script>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ProNet - Subscription Management</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/alpinejs@3.10.2/dist/cdn.min.js" defer></script>
+</head>
+<body class="font-sans text-gray-800 bg-gray-100 dark:bg-gray-900 dark:text-white transition-all">
+
+    <div class="flex h-screen">
+        
+        <!-- Sidebar -->
+        <aside class="w-64 bg-white dark:bg-gray-800 shadow-lg p-6">
+            <h2 class="text-2xl font-bold mb-6 text-blue-700 dark:text-white">💳 Subscriptions</h2>
+            <nav class="flex flex-col gap-4 text-gray-700 dark:text-gray-300">
+                <a href="admin_dashboard.html" class="hover:text-blue-500">🏠 Dashboard</a>
+                <a href="admin_users.html" class="hover:text-blue-500">👥 Users</a>
+                <a href="admin_subscriptions.html" class="text-blue-600 font-semibold">💳 Subscriptions</a>
+                <a href="admin_reports.html" class="hover:text-blue-500">⚠️ Reports</a>
+                <a href="admin_analytics.html" class="hover:text-blue-500">📊 Analytics</a>
+                <a href="admin_settings.html" class="hover:text-blue-500">⚙️ Settings</a>
+                <a href="#" class="hover:text-red-500 mt-6">🚪 Logout</a>
+            </nav>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="flex-1 overflow-auto p-6" x-data="{ search: '', plans: [
+            { id: 1, user: 'Alice Johnson', plan: 'Premium', status: 'Active', amount: '$49' },
+            { id: 2, user: 'Bob Smith', plan: 'Basic', status: 'Expired', amount: '$19' },
+            { id: 3, user: 'Charlie Brown', plan: 'Enterprise', status: 'Active', amount: '$99' },
+            { id: 4, user: 'David White', plan: 'Basic', status: 'Active', amount: '$19' }
+        ] }">
+            <h1 class="text-2xl font-semibold text-blue-700 dark:text-white mb-6">💳 Subscription Management</h1>
+
+            <!-- Search Bar -->
+            <div class="mb-6">
+                <input x-model="search" type="text" placeholder="Search subscriptions..." 
+                    class="w-full p-3 border rounded-lg focus:outline-none focus:ring focus:ring-blue-300">
+            </div>
+
+            <!-- Subscription Table -->
+            <div class="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-lg">
+                <table class="w-full border-collapse">
+                    <thead>
+                        <tr class="bg-blue-700 text-white">
+                            <th class="p-3 text-left">User</th>
+                            <th class="p-3 text-left">Plan</th>
+                            <th class="p-3 text-left">Status</th>
+                            <th class="p-3 text-left">Amount</th>
+                            <th class="p-3 text-center">Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <template x-for="plan in plans.filter(p => p.user.toLowerCase().includes(search.toLowerCase()))">
+                            <tr class="border-b">
+                                <td class="p-3" x-text="plan.user"></td>
+                                <td class="p-3" x-text="plan.plan"></td>
+                                <td class="p-3" :class="plan.status === 'Active' ? 'text-green-500' : 'text-red-500'" x-text="plan.status"></td>
+                                <td class="p-3" x-text="plan.amount"></td>
+                                <td class="p-3 text-center">
+                                    <button class="bg-yellow-500 text-white px-4 py-2 rounded" @click="editPlan(plan.id)">✏️ Edit</button>
+                                    <button class="bg-red-500 text-white px-4 py-2 rounded ml-2" @click="togglePlanStatus(plan.id)">
+                                        <span x-text="plan.status === 'Active' ? 'Cancel' : 'Renew'"></span>
+                                    </button>
+                                </td>
+                            </tr>
+                        </template>
+                    </tbody>
+                </table>
+            </div>
+        </main>
+    </div>
+
+    <script src="admin_subscriptions.js"></script>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ProNet - Revenue & Analytics</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/alpinejs@3.10.2/dist/cdn.min.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body class="font-sans text-gray-800 bg-gray-100 dark:bg-gray-900 dark:text-white transition-all">
+
+    <div class="flex h-screen">
+        
+        <!-- Sidebar -->
+        <aside class="w-64 bg-white dark:bg-gray-800 shadow-lg p-6">
+            <h2 class="text-2xl font-bold mb-6 text-blue-700 dark:text-white">📊 Analytics</h2>
+            <nav class="flex flex-col gap-4 text-gray-700 dark:text-gray-300">
+                <a href="admin_dashboard.html" class="hover:text-blue-500">🏠 Dashboard</a>
+                <a href="admin_users.html" class="hover:text-blue-500">👥 Users</a>
+                <a href="admin_subscriptions.html" class="hover:text-blue-500">💳 Subscriptions</a>
+                <a href="admin_analytics.html" class="text-blue-600 font-semibold">📊 Analytics</a>
+                <a href="admin_settings.html" class="hover:text-blue-500">⚙️ Settings</a>
+                <a href="#" class="hover:text-red-500 mt-6">🚪 Logout</a>
+            </nav>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="flex-1 overflow-auto p-6" x-data="analyticsData">
+            <h1 class="text-2xl font-semibold text-blue-700 dark:text-white mb-6">📊 Revenue & Subscription Analytics</h1>
+
+            <!-- Revenue & Subscription Stats -->
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-6">
+                <div class="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-lg text-center">
+                    <h2 class="text-xl font-semibold">💰 Total Revenue</h2>
+                    <p class="text-2xl font-bold text-green-500" x-text="'$' + totalRevenue"></p>
+                </div>
+                <div class="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-lg text-center">
+                    <h2 class="text-xl font-semibold">👥 Active Subscriptions</h2>
+                    <p class="text-2xl font-bold text-blue-500" x-text="activeSubscriptions"></p>
+                </div>
+                <div class="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-lg text-center">
+                    <h2 class="text-xl font-semibold">⚠️ Expired Subscriptions</h2>
+                    <p class="text-2xl font-bold text-red-500" x-text="expiredSubscriptions"></p>
+                </div>
+            </div>
+
+            <!-- Revenue Growth Chart -->
+            <div class="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-lg">
+                <h2 class="text-lg font-semibold mb-3">📈 Revenue Growth</h2>
+                <canvas id="revenueChart"></canvas>
+            </div>
+
+            <!-- Subscription Plans Breakdown -->
+            <div class="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-lg mt-6">
+                <h2 class="text-lg font-semibold mb-3">📊 Subscription Plans Breakdown</h2>
+                <canvas id="planChart"></canvas>
+            </div>
+        </main>
+    </div>
+
+    <script src="admin_analytics.js"></script>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ProNet - User Growth Analytics</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/alpinejs@3.10.2/dist/cdn.min.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body class="font-sans text-gray-800 bg-gray-100 dark:bg-gray-900 dark:text-white transition-all">
+
+    <div class="flex h-screen">
+        
+        <!-- Sidebar -->
+        <aside class="w-64 bg-white dark:bg-gray-800 shadow-lg p-6">
+            <h2 class="text-2xl font-bold mb-6 text-blue-700 dark:text-white">📊 User Growth</h2>
+            <nav class="flex flex-col gap-4 text-gray-700 dark:text-gray-300">
+                <a href="admin_dashboard.html" class="hover:text-blue-500">🏠 Dashboard</a>
+                <a href="admin_users.html" class="hover:text-blue-500">👥 Users</a>
+                <a href="admin_subscriptions.html" class="hover:text-blue-500">💳 Subscriptions</a>
+                <a href="admin_analytics.html" class="hover:text-blue-500">📊 Revenue</a>
+                <a href="admin_user_growth.html" class="text-blue-600 font-semibold">📈 User Growth</a>
+                <a href="admin_settings.html" class="hover:text-blue-500">⚙️ Settings</a>
+                <a href="#" class="hover:text-red-500 mt-6">🚪 Logout</a>
+            </nav>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="flex-1 overflow-auto p-6" x-data="userGrowthData">
+            <h1 class="text-2xl font-semibold text-blue-700 dark:text-white mb-6">📈 User Growth Analytics</h1>
+
+            <!-- User Stats -->
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-6">
+                <div class="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-lg text-center">
+                    <h2 class="text-xl font-semibold">👥 Total Users</h2>
+                    <p class="text-2xl font-bold text-blue-500" x-text="totalUsers"></p>
+                </div>
+                <div class="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-lg text-center">
+                    <h2 class="text-xl font-semibold">📅 New Users (This Month)</h2>
+                    <p class="text-2xl font-bold text-green-500" x-text="monthlyRegistrations"></p>
+                </div>
+                <div class="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-lg text-center">
+                    <h2 class="text-xl font-semibold">⚡ Active Users (%)</h2>
+                    <p class="text-2xl font-bold text-yellow-500" x-text="activeUsersPercentage + '%'"></p>
+                </div>
+            </div>
+
+            <!-- Monthly Registration Chart -->
+            <div class="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-lg">
+                <h2 class="text-lg font-semibold mb-3">📊 Monthly User Growth</h2>
+                <canvas id="userGrowthChart"></canvas>
+            </div>
+
+            <!-- Industry Breakdown -->
+            <div class="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-lg mt-6">
+                <h2 class="text-lg font-semibold mb-3">🏢 Industry Breakdown</h2>
+                <canvas id="industryChart"></canvas>
+            </div>
+
+            <!-- Location Breakdown -->
+            <div class="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-lg mt-6">
+                <h2 class="text-lg font-semibold mb-3">📍 Location Breakdown</h2>
+                <canvas id="locationChart"></canvas>
+            </div>
+        </main>
+    </div>
+
+    <script src="admin_user_growth.js"></script>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ProNet - Revenue & Subscription Analytics</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/alpinejs@3.10.2/dist/cdn.min.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body class="font-sans text-gray-800 bg-gray-100 dark:bg-gray-900 dark:text-white transition-all">
+
+    <div class="flex h-screen">
+        
+        <!-- Sidebar -->
+        <aside class="w-64 bg-white dark:bg-gray-800 shadow-lg p-6">
+            <h2 class="text-2xl font-bold mb-6 text-blue-700 dark:text-white">💰 Revenue Analytics</h2>
+            <nav class="flex flex-col gap-4 text-gray-700 dark:text-gray-300">
+                <a href="admin_dashboard.html" class="hover:text-blue-500">🏠 Dashboard</a>
+                <a href="admin_users.html" class="hover:text-blue-500">👥 Users</a>
+                <a href="admin_subscriptions.html" class="hover:text-blue-500">💳 Subscriptions</a>
+                <a href="admin_analytics.html" class="text-blue-600 font-semibold">📊 Revenue</a>
+                <a href="admin_user_growth.html" class="hover:text-blue-500">📈 User Growth</a>
+                <a href="admin_settings.html" class="hover:text-blue-500">⚙️ Settings</a>
+                <a href="#" class="hover:text-red-500 mt-6">🚪 Logout</a>
+            </nav>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="flex-1 overflow-auto p-6" x-data="revenueData">
+            <h1 class="text-2xl font-semibold text-blue-700 dark:text-white mb-6">💰 Revenue & Subscription Analytics</h1>
+
+            <!-- Revenue Stats -->
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-6">
+                <div class="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-lg text-center">
+                    <h2 class="text-xl font-semibold">💵 Total Revenue</h2>
+                    <p class="text-2xl font-bold text-green-500">$<span x-text="totalRevenue"></span></p>
+                </div>
+                <div class="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-lg text-center">
+                    <h2 class="text-xl font-semibold">📅 Monthly Revenue</h2>
+                    <p class="text-2xl font-bold text-blue-500">$<span x-text="monthlyRevenue"></span></p>
+                </div>
+                <div class="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-lg text-center">
+                    <h2 class="text-xl font-semibold">🔒 Active Subscriptions</h2>
+                    <p class="text-2xl font-bold text-yellow-500" x-text="activeSubscribers"></p>
+                </div>
+            </div>
+
+            <!-- Monthly Revenue Chart -->
+            <div class="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-lg">
+                <h2 class="text-lg font-semibold mb-3">📊 Monthly Revenue Growth</h2>
+                <canvas id="revenueChart"></canvas>
+            </div>
+
+            <!-- Subscription Plan Breakdown -->
+            <div class="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-lg mt-6">
+                <h2 class="text-lg font-semibold mb-3">🏆 Most Popular Subscription Plans</h2>
+                <canvas id="subscriptionChart"></canvas>
+            </div>
+        </main>
+    </div>
+
+    <script src="admin_revenue.js"></script>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ProNet - User Growth Analytics</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/alpinejs@3.10.2/dist/cdn.min.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body class="font-sans text-gray-800 bg-gray-100 dark:bg-gray-900 dark:text-white transition-all">
+
+    <div class="flex h-screen">
+        
+        <!-- Sidebar -->
+        <aside class="w-64 bg-white dark:bg-gray-800 shadow-lg p-6">
+            <h2 class="text-2xl font-bold mb-6 text-blue-700 dark:text-white">📈 User Growth</h2>
+            <nav class="flex flex-col gap-4 text-gray-700 dark:text-gray-300">
+                <a href="admin_dashboard.html" class="hover:text-blue-500">🏠 Dashboard</a>
+                <a href="admin_users.html" class="hover:text-blue-500">👥 Users</a>
+                <a href="admin_subscriptions.html" class="hover:text-blue-500">💳 Subscriptions</a>
+                <a href="admin_analytics.html" class="hover:text-blue-500">📊 Revenue</a>
+                <a href="admin_user_growth.html" class="text-blue-600 font-semibold">📈 User Growth</a>
+                <a href="admin_settings.html" class="hover:text-blue-500">⚙️ Settings</a>
+                <a href="#" class="hover:text-red-500 mt-6">🚪 Logout</a>
+            </nav>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="flex-1 overflow-auto p-6" x-data="userGrowthData">
+            <h1 class="text-2xl font-semibold text-blue-700 dark:text-white mb-6">📈 User Engagement & Growth Analytics</h1>
+
+            <!-- User Stats -->
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-6">
+                <div class="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-lg text-center">
+                    <h2 class="text-xl font-semibold">👥 Total Users</h2>
+                    <p class="text-2xl font-bold text-green-500"><span x-text="totalUsers"></span></p>
+                </div>
+                <div class="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-lg text-center">
+                    <h2 class="text-xl font-semibold">📅 New Users This Month</h2>
+                    <p class="text-2xl font-bold text-blue-500"><span x-text="newUsers"></span></p>
+                </div>
+                <div class="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-lg text-center">
+                    <h2 class="text-xl font-semibold">🚀 Active Users</h2>
+                    <p class="text-2xl font-bold text-yellow-500"><span x-text="activeUsers"></span></p>
+                </div>
+            </div>
+
+            <!-- User Growth Chart -->
+            <div class="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-lg">
+                <h2 class="text-lg font-semibold mb-3">📊 Monthly New Users</h2>
+                <canvas id="userGrowthChart"></canvas>
+            </div>
+
+            <!-- Interest Breakdown -->
+            <div class="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-lg mt-6">
+                <h2 class="text-lg font-semibold mb-3">🔥 Most Popular Interests</h2>
+                <canvas id="interestChart"></canvas>
+            </div>
+        </main>
+    </div>
+
+    <script src="admin_user_growth.js"></script>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ProNet - AI User Predictions</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/alpinejs@3.10.2/dist/cdn.min.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body class="font-sans text-gray-800 bg-gray-100 dark:bg-gray-900 dark:text-white transition-all">
+
+    <div class="flex h-screen">
+        
+        <!-- Sidebar -->
+        <aside class="w-64 bg-white dark:bg-gray-800 shadow-lg p-6">
+            <h2 class="text-2xl font-bold mb-6 text-blue-700 dark:text-white">🔮 AI Predictions</h2>
+            <nav class="flex flex-col gap-4 text-gray-700 dark:text-gray-300">
+                <a href="admin_dashboard.html" class="hover:text-blue-500">🏠 Dashboard</a>
+                <a href="admin_user_growth.html" class="hover:text-blue-500">📈 User Growth</a>
+                <a href="admin_engagement_predictions.html" class="text-blue-600 font-semibold">🔮 Predictions</a>
+                <a href="admin_settings.html" class="hover:text-blue-500">⚙️ Settings</a>
+                <a href="#" class="hover:text-red-500 mt-6">🚪 Logout</a>
+            </nav>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="flex-1 overflow-auto p-6" x-data="engagementData">
+            <h1 class="text-2xl font-semibold text-blue-700 dark:text-white mb-6">🔮 AI User Engagement Predictions</h1>
+
+            <!-- Prediction Stats -->
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-6">
+                <div class="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-lg text-center">
+                    <h2 class="text-xl font-semibold">📈 Next Month Growth</h2>
+                    <p class="text-2xl font-bold text-green-500"><span x-text="predictedGrowth"></span> Users</p>
+                </div>
+                <div class="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-lg text-center">
+                    <h2 class="text-xl font-semibold">🔥 Engagement Score</h2>
+                    <p class="text-2xl font-bold text-blue-500"><span x-text="engagementScore"></span>% Active Users</p>
+                </div>
+                <div class="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-lg text-center">
+                    <h2 class="text-xl font-semibold">⚠️ Churn Risk Users</h2>
+                    <p class="text-2xl font-bold text-red-500"><span x-text="churnRisk"></span> At-Risk</p>
+                </div>
+            </div>
+
+            <!-- AI Trend Prediction Chart -->
+            <div class="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-lg">
+                <h2 class="text-lg font-semibold mb-3">📊 AI-Powered User Growth Forecast</h2>
+                <canvas id="aiGrowthChart"></canvas>
+            </div>
+        </main>
+    </div>
+
+    <script src="admin_engagement_predictions.js"></script>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ProNet - AI Reports</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/alpinejs@3.10.2/dist/cdn.min.js" defer></script>
+</head>
+<body class="font-sans text-gray-800 bg-gray-100 dark:bg-gray-900 dark:text-white transition-all">
+
+    <div class="flex h-screen">
+        
+        <!-- Sidebar -->
+        <aside class="w-64 bg-white dark:bg-gray-800 shadow-lg p-6">
+            <h2 class="text-2xl font-bold mb-6 text-blue-700 dark:text-white">📊 AI Reports</h2>
+            <nav class="flex flex-col gap-4 text-gray-700 dark:text-gray-300">
+                <a href="admin_dashboard.html" class="hover:text-blue-500">🏠 Dashboard</a>
+                <a href="admin_engagement_predictions.html" class="hover:text-blue-500">🔮 Predictions</a>
+                <a href="admin_ai_reports.html" class="text-blue-600 font-semibold">📊 AI Reports</a>
+                <a href="admin_settings.html" class="hover:text-blue-500">⚙️ Settings</a>
+                <a href="#" class="hover:text-red-500 mt-6">🚪 Logout</a>
+            </nav>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="flex-1 overflow-auto p-6" x-data="aiReports">
+            <h1 class="text-2xl font-semibold text-blue-700 dark:text-white mb-6">📊 Weekly AI Reports & Alerts</h1>
+
+            <!-- AI Report Download -->
+            <div class="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-lg mb-6">
+                <h2 class="text-lg font-semibold mb-3">📥 Download Weekly Report</h2>
+                <button @click="downloadReport" class="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700">
+                    📥 Download CSV
+                </button>
+            </div>
+
+            <!-- AI Alerts Section -->
+            <div class="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-lg">
+                <h2 class="text-lg font-semibold mb-3">🔔 AI Alerts (High Churn Risk Users)</h2>
+                <ul class="list-disc ml-6">
+                    <template x-for="user in churnUsers" :key="user.id">
+                        <li class="text-red-500 font-semibold">
+                            <span x-text="user.name"></span> - <span x-text="user.lastActive"></span>
+                        </li>
+                    </template>
+                </ul>
+            </div>
+        </main>
+    </div>
+
+    <script src="admin_ai_reports.js"></script>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ProNet - Retention Dashboard</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="font-sans text-gray-800 bg-gray-100 dark:bg-gray-900 dark:text-white transition-all">
+
+    <div class="flex h-screen">
+        
+        <!-- Sidebar -->
+        <aside class="w-64 bg-white dark:bg-gray-800 shadow-lg p-6">
+            <h2 class="text-2xl font-bold mb-6 text-blue-700 dark:text-white">📊 Retention Insights</h2>
+            <nav class="flex flex-col gap-4 text-gray-700 dark:text-gray-300">
+                <a href="admin_dashboard.html" class="hover:text-blue-500">🏠 Dashboard</a>
+                <a href="admin_ai_reports.html" class="hover:text-blue-500">📥 AI Reports</a>
+                <a href="admin_retention_dashboard.html" class="text-blue-600 font-semibold">📊 Retention Trends</a>
+                <a href="admin_settings.html" class="hover:text-blue-500">⚙️ Settings</a>
+                <a href="#" class="hover:text-red-500 mt-6">🚪 Logout</a>
+            </nav>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="flex-1 overflow-auto p-6">
+            <h1 class="text-2xl font-semibold text-blue-700 dark:text-white mb-6">📊 AI-Powered Retention Insights</h1>
+
+            <!-- Retention Rate Chart -->
+            <div class="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-lg mb-6">
+                <h2 class="text-lg font-semibold mb-3">📈 User Retention Rate (Last 6 Months)</h2>
+                <canvas id="retentionChart"></canvas>
+            </div>
+
+            <!-- Engagement Drop-Off Chart -->
+            <div class="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-lg">
+                <h2 class="text-lg font-semibold mb-3">📉 User Drop-Off Trends</h2>
+                <canvas id="dropoffChart"></canvas>
+            </div>
+        </main>
+    </div>
+
+    <script src="admin_retention_dashboard.js"></script>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ProNet - Engagement Dashboard</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="font-sans text-gray-800 bg-gray-100 dark:bg-gray-900 dark:text-white transition-all">
+
+    <div class="flex h-screen">
+        
+        <!-- Sidebar -->
+        <aside class="w-64 bg-white dark:bg-gray-800 shadow-lg p-6">
+            <h2 class="text-2xl font-bold mb-6 text-blue-700 dark:text-white">📊 Engagement Insights</h2>
+            <nav class="flex flex-col gap-4 text-gray-700 dark:text-gray-300">
+                <a href="admin_dashboard.html" class="hover:text-blue-500">🏠 Dashboard</a>
+                <a href="admin_engagement_dashboard.html" class="text-blue-600 font-semibold">📊 Engagement Trends</a>
+                <a href="admin_ai_recommendations.html" class="hover:text-blue-500">🤖 AI Suggestions</a>
+                <a href="admin_settings.html" class="hover:text-blue-500">⚙️ Settings</a>
+                <a href="#" class="hover:text-red-500 mt-6">🚪 Logout</a>
+            </nav>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="flex-1 overflow-auto p-6">
+            <h1 class="text-2xl font-semibold text-blue-700 dark:text-white mb-6">📊 AI-Powered User Engagement</h1>
+
+            <!-- Active Users Chart -->
+            <div class="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-lg mb-6">
+                <h2 class="text-lg font-semibold mb-3">👥 Active Users Trend</h2>
+                <canvas id="activeUsersChart"></canvas>
+            </div>
+
+            <!-- Popular Features Chart -->
+            <div class="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-lg">
+                <h2 class="text-lg font-semibold mb-3">🔥 Most Used Features</h2>
+                <canvas id="popularFeaturesChart"></canvas>
+            </div>
+        </main>
+    </div>
+
+    <script src="admin_engagement_dashboard.js"></script>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ProNet - Engagement Dashboard</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="font-sans text-gray-800 bg-gray-100 dark:bg-gray-900 dark:text-white transition-all">
+
+    <div class="flex h-screen">
+        
+        <!-- Sidebar -->
+        <aside class="w-64 bg-white dark:bg-gray-800 shadow-lg p-6">
+            <h2 class="text-2xl font-bold mb-6 text-blue-700 dark:text-white">📊 Engagement Insights</h2>
+            <nav class="flex flex-col gap-4 text-gray-700 dark:text-gray-300">
+                <a href="admin_dashboard.html" class="hover:text-blue-500">🏠 Dashboard</a>
+                <a href="admin_engagement_dashboard.html" class="text-blue-600 font-semibold">📊 Engagement Trends</a>
+                <a href="admin_ai_recommendations.html" class="hover:text-blue-500">🤖 AI Suggestions</a>
+                <a href="admin_settings.html" class="hover:text-blue-500">⚙️ Settings</a>
+                <a href="#" class="hover:text-red-500 mt-6">🚪 Logout</a>
+            </nav>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="flex-1 overflow-auto p-6">
+            <h1 class="text-2xl font-semibold text-blue-700 dark:text-white mb-6">📊 AI-Powered User Engagement</h1>
+
+            <!-- Active Users Chart -->
+            <div class="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-lg mb-6">
+                <h2 class="text-lg font-semibold mb-3">👥 Active Users Trend</h2>
+                <canvas id="activeUsersChart"></canvas>
+            </div>
+
+            <!-- Popular Features Chart -->
+            <div class="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-lg">
+                <h2 class="text-lg font-semibold mb-3">🔥 Most Used Features</h2>
+                <canvas id="popularFeaturesChart"></canvas>
+            </div>
+        </main>
+    </div>
+
+    <script src="admin_engagement_dashboard.js"></script>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ProNet - AI User Engagement</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="font-sans text-gray-800 bg-gray-100 dark:bg-gray-900 dark:text-white transition-all">
+
+    <div class="flex h-screen">
+        
+        <!-- Sidebar -->
+        <aside class="w-64 bg-white dark:bg-gray-800 shadow-lg p-6">
+            <h2 class="text-2xl font-bold mb-6 text-blue-700 dark:text-white">🤖 AI Recommendations</h2>
+            <nav class="flex flex-col gap-4 text-gray-700 dark:text-gray-300">
+                <a href="admin_dashboard.html" class="hover:text-blue-500">🏠 Dashboard</a>
+                <a href="admin_engagement_dashboard.html" class="hover:text-blue-500">📊 Engagement Trends</a>
+                <a href="admin_ai_recommendations.html" class="text-blue-600 font-semibold">🤖 AI Insights</a>
+                <a href="admin_settings.html" class="hover:text-blue-500">⚙️ Settings</a>
+                <a href="#" class="hover:text-red-500 mt-6">🚪 Logout</a>
+            </nav>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="flex-1 overflow-auto p-6">
+            <h1 class="text-2xl font-semibold text-blue-700 dark:text-white mb-6">🤖 AI-Powered Insights & User Alerts</h1>
+
+            <!-- AI Insights Section -->
+            <div class="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-lg mb-6">
+                <h2 class="text-lg font-semibold mb-3">📈 AI Predicted Drop-Off Users</h2>
+                <canvas id="userDropOffChart"></canvas>
+            </div>
+
+            <!-- Inactive Users Alert -->
+            <div class="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-lg">
+                <h2 class="text-lg font-semibold mb-3">🚨 Inactive Users Detected</h2>
+                <button id="alertInactiveUsers" class="bg-red-500 text-white px-4 py-2 rounded-lg hover:bg-red-600">Send Alert</button>
+            </div>
+        </main>
+    </div>
+
+    <script src="admin_ai_recommendations.js"></script>
+
+</body>
+</html>
+<!-- Messages Page -->
+<div id="messages" class="page hidden">
+    <h2>💬 Messages</h2>
+    <div class="message-box">
+        <input type="text" id="messageInput" placeholder="Type a message...">
+        <button onclick="sendMessage()">Send</button>
+    </div>
+    <div id="messageList"></div>
+</div>
+
+<!-- Users Page -->
+<div id="users" class="page hidden">
+    <h2>👥 Users</h2>
+    <div id="user-list"></div>
+</div>
+<div id="dashboard" class="page">
+    <h2>📊 Business Dashboard</h2>
+    <div class="stats">
+        <div class="card">
+            <h3>Total Users</h3>
+            <p id="total-users">0</p>
+        </div>
+        <div class="card">
+            <h3>Active Connections</h3>
+            <p id="active-connections">0</p>
+        </div>
+        <div class="card">
+            <h3>Messages Sent</h3>
+            <p id="messages-sent">0</p>
+        </div>
+    </div>
+
+    <canvas id="userChart"></canvas> <!-- Chart for user growth -->
+</div>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
